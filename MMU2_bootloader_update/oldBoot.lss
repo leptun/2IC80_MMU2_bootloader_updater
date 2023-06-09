@@ -1,0 +1,1838 @@
+
+bootloader_orig.elf:     file format elf32-avr
+
+
+Disassembly of section .data:
+
+00000000 <_binary_bootloader_orig_bin_start>:
+
+<... removed empty app section ...>
+
+    7000:	5f c0       	rjmp	.+190    	; 0x70c0 <_binary_bootloader_orig_bin_start+0x70c0>
+    7002:	00 00       	nop
+    7004:	80 c0       	rjmp	.+256    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7006:	00 00       	nop
+    7008:	7e c0       	rjmp	.+252    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    700a:	00 00       	nop
+    700c:	7c c0       	rjmp	.+248    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    700e:	00 00       	nop
+    7010:	7a c0       	rjmp	.+244    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7012:	00 00       	nop
+    7014:	78 c0       	rjmp	.+240    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7016:	00 00       	nop
+    7018:	76 c0       	rjmp	.+236    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    701a:	00 00       	nop
+    701c:	74 c0       	rjmp	.+232    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    701e:	00 00       	nop
+    7020:	72 c0       	rjmp	.+228    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7022:	00 00       	nop
+    7024:	70 c0       	rjmp	.+224    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7026:	00 00       	nop
+    7028:	c0 c4       	rjmp	.+2432   	; 0x79aa <_binary_bootloader_orig_bin_start+0x79aa>
+    702a:	00 00       	nop
+    702c:	6c c0       	rjmp	.+216    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    702e:	00 00       	nop
+    7030:	6a c0       	rjmp	.+212    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7032:	00 00       	nop
+    7034:	68 c0       	rjmp	.+208    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7036:	00 00       	nop
+    7038:	66 c0       	rjmp	.+204    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    703a:	00 00       	nop
+    703c:	64 c0       	rjmp	.+200    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    703e:	00 00       	nop
+    7040:	62 c0       	rjmp	.+196    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7042:	00 00       	nop
+    7044:	cd c0       	rjmp	.+410    	; 0x71e0 <_binary_bootloader_orig_bin_start+0x71e0>
+    7046:	00 00       	nop
+    7048:	5e c0       	rjmp	.+188    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    704a:	00 00       	nop
+    704c:	5c c0       	rjmp	.+184    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    704e:	00 00       	nop
+    7050:	5a c0       	rjmp	.+180    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7052:	00 00       	nop
+    7054:	58 c0       	rjmp	.+176    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7056:	00 00       	nop
+    7058:	56 c0       	rjmp	.+172    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    705a:	00 00       	nop
+    705c:	54 c0       	rjmp	.+168    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    705e:	00 00       	nop
+    7060:	52 c0       	rjmp	.+164    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7062:	00 00       	nop
+    7064:	50 c0       	rjmp	.+160    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7066:	00 00       	nop
+    7068:	4e c0       	rjmp	.+156    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    706a:	00 00       	nop
+    706c:	4c c0       	rjmp	.+152    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    706e:	00 00       	nop
+    7070:	4a c0       	rjmp	.+148    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7072:	00 00       	nop
+    7074:	48 c0       	rjmp	.+144    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7076:	00 00       	nop
+    7078:	46 c0       	rjmp	.+140    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    707a:	00 00       	nop
+    707c:	44 c0       	rjmp	.+136    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    707e:	00 00       	nop
+    7080:	42 c0       	rjmp	.+132    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7082:	00 00       	nop
+    7084:	40 c0       	rjmp	.+128    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7086:	00 00       	nop
+    7088:	3e c0       	rjmp	.+124    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    708a:	00 00       	nop
+    708c:	3c c0       	rjmp	.+120    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    708e:	00 00       	nop
+    7090:	3a c0       	rjmp	.+116    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7092:	00 00       	nop
+    7094:	38 c0       	rjmp	.+112    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    7096:	00 00       	nop
+    7098:	36 c0       	rjmp	.+108    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    709a:	00 00       	nop
+    709c:	34 c0       	rjmp	.+104    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    709e:	00 00       	nop
+    70a0:	32 c0       	rjmp	.+100    	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    70a2:	00 00       	nop
+    70a4:	30 c0       	rjmp	.+96     	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    70a6:	00 00       	nop
+    70a8:	2e c0       	rjmp	.+92     	; 0x7106 <_binary_bootloader_orig_bin_start+0x7106>
+    70aa:	00 00       	nop
+    70ac:	44 3e       	cpi	r20, 0xE4	; 228
+    70ae:	5d 3e       	cpi	r21, 0xED	; 237
+    70b0:	04 3f       	cpi	r16, 0xF4	; 244
+    70b2:	5d 3e       	cpi	r21, 0xED	; 237
+    70b4:	04 3f       	cpi	r16, 0xF4	; 244
+    70b6:	95 3e       	cpi	r25, 0xE5	; 229
+    70b8:	b7 3e       	cpi	r27, 0xE7	; 231
+    70ba:	04 3f       	cpi	r16, 0xF4	; 244
+    70bc:	d7 3e       	cpi	r29, 0xE7	; 231
+    70be:	e9 3e       	cpi	r30, 0xE9	; 233
+    70c0:	11 24       	eor	r1, r1
+    70c2:	1f be       	out	0x3f, r1	; 63
+    70c4:	cf ef       	ldi	r28, 0xFF	; 255
+    70c6:	da e0       	ldi	r29, 0x0A	; 10
+    70c8:	de bf       	out	0x3e, r29	; 62
+    70ca:	cd bf       	out	0x3d, r28	; 61
+    70cc:	80 91 fe 0a 	lds	r24, 0x0AFE	; 0x800afe <_binary_bootloader_orig_bin_end+0x7f8afe>
+    70d0:	90 91 ff 0a 	lds	r25, 0x0AFF	; 0x800aff <_binary_bootloader_orig_bin_end+0x7f8aff>
+    70d4:	90 93 5d 02 	sts	0x025D, r25	; 0x80025d <_binary_bootloader_orig_bin_end+0x7f825d>
+    70d8:	80 93 5c 02 	sts	0x025C, r24	; 0x80025c <_binary_bootloader_orig_bin_end+0x7f825c>
+    70dc:	12 e0       	ldi	r17, 0x02	; 2
+    70de:	a0 e0       	ldi	r26, 0x00	; 0
+    70e0:	b1 e0       	ldi	r27, 0x01	; 1
+    70e2:	ea ea       	ldi	r30, 0xAA	; 170
+    70e4:	fe e7       	ldi	r31, 0x7E	; 126
+    70e6:	02 c0       	rjmp	.+4      	; 0x70ec <_binary_bootloader_orig_bin_start+0x70ec>
+    70e8:	05 90       	lpm	r0, Z+
+    70ea:	0d 92       	st	X+, r0
+    70ec:	a0 32       	cpi	r26, 0x20	; 32
+    70ee:	b1 07       	cpc	r27, r17
+    70f0:	d9 f7       	brne	.-10     	; 0x70e8 <_binary_bootloader_orig_bin_start+0x70e8>
+    70f2:	22 e0       	ldi	r18, 0x02	; 2
+    70f4:	a0 e2       	ldi	r26, 0x20	; 32
+    70f6:	b2 e0       	ldi	r27, 0x02	; 2
+    70f8:	01 c0       	rjmp	.+2      	; 0x70fc <_binary_bootloader_orig_bin_start+0x70fc>
+    70fa:	1d 92       	st	X+, r1
+    70fc:	ac 35       	cpi	r26, 0x5C	; 92
+    70fe:	b2 07       	cpc	r27, r18
+    7100:	e1 f7       	brne	.-8      	; 0x70fa <_binary_bootloader_orig_bin_start+0x70fa>
+    7102:	18 d3       	rcall	.+1584   	; 0x7734 <_binary_bootloader_orig_bin_start+0x7734>
+    7104:	c4 c6       	rjmp	.+3464   	; 0x7e8e <_binary_bootloader_orig_bin_start+0x7e8e>
+    7106:	7c cf       	rjmp	.-264    	; 0x7000 <_binary_bootloader_orig_bin_start+0x7000>
+// FetchNextCommandByte()
+//	Endpoint_SelectEndpoint(CDC_RX_EPNUM);
+    7108:	84 e0       	ldi	r24, 0x04	; 4
+    710a:	80 93 e9 00 	sts	0x00E9, r24	; 0x8000e9 <_binary_bootloader_orig_bin_end+0x7f80e9>
+//	while (!(Endpoint_IsReadWriteAllowed()))
+	710e:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7112:	85 fd       	sbrc	r24, 5
+    7114:	0d c0       	rjmp	.+26     	; 0x7130 <_binary_bootloader_orig_bin_start+0x7130> //break out of loop
+//		Endpoint_ClearOUT();
+    7116:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    711a:	8b 77       	andi	r24, 0x7B	; 123
+    711c:	80 93 e8 00 	sts	0x00E8, r24	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+//		while (!(Endpoint_IsOUTReceived()))
+    7120:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7124:	82 fd       	sbrc	r24, 2 															//break when out data is received
+    7126:	f3 cf       	rjmp	.-26     	; 0x710e <_binary_bootloader_orig_bin_start+0x710e>
+//			if (USB_DeviceState == DEVICE_STATE_Unattached)
+//				return 0;
+    7128:	8e b3       	in	r24, 0x1e	; 30
+    712a:	81 11       	cpse	r24, r1
+    712c:	f9 cf       	rjmp	.-14     	; 0x7120 <_binary_bootloader_orig_bin_start+0x7120> //try again
+    712e:	02 c0       	rjmp	.+4      	; 0x7134 <_binary_bootloader_orig_bin_start+0x7134> //return 0
+//	return Endpoint_Read_8();
+    7130:	80 91 f1 00 	lds	r24, 0x00F1	; 0x8000f1 <_binary_bootloader_orig_bin_end+0x7f80f1>
+    7134:	08 95       	ret
+
+    7136:	93 e0       	ldi	r25, 0x03	; 3
+    7138:	90 93 e9 00 	sts	0x00E9, r25	; 0x8000e9 <_binary_bootloader_orig_bin_end+0x7f80e9>
+    713c:	90 91 e8 00 	lds	r25, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7140:	95 ff       	sbrs	r25, 5
+    7142:	03 c0       	rjmp	.+6      	; 0x714a <_binary_bootloader_orig_bin_start+0x714a>
+    7144:	80 93 f1 00 	sts	0x00F1, r24	; 0x8000f1 <_binary_bootloader_orig_bin_end+0x7f80f1>
+    7148:	08 95       	ret
+    714a:	90 91 e8 00 	lds	r25, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    714e:	9e 77       	andi	r25, 0x7E	; 126
+    7150:	90 93 e8 00 	sts	0x00E8, r25	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7154:	90 91 e8 00 	lds	r25, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7158:	90 fd       	sbrc	r25, 0
+    715a:	f4 cf       	rjmp	.-24     	; 0x7144 <_binary_bootloader_orig_bin_start+0x7144>
+    715c:	9e b3       	in	r25, 0x1e	; 30
+    715e:	91 11       	cpse	r25, r1
+    7160:	f9 cf       	rjmp	.-14     	; 0x7154 <_binary_bootloader_orig_bin_start+0x7154>
+    7162:	08 95       	ret
+    7164:	f8 94       	cli
+    7166:	81 e0       	ldi	r24, 0x01	; 1
+    7168:	85 bf       	out	0x35, r24	; 53
+    716a:	15 be       	out	0x35, r1	; 53
+    716c:	0c 94 00 00 	jmp	0	; 0x0 <_binary_bootloader_orig_bin_start>
+    7170:	08 95       	ret
+    7172:	20 91 26 02 	lds	r18, 0x0226	; 0x800226 <_binary_bootloader_orig_bin_end+0x7f8226>
+    7176:	30 91 27 02 	lds	r19, 0x0227	; 0x800227 <_binary_bootloader_orig_bin_end+0x7f8227>
+    717a:	2f 5f       	subi	r18, 0xFF	; 255
+    717c:	3f 4f       	sbci	r19, 0xFF	; 255
+    717e:	30 93 27 02 	sts	0x0227, r19	; 0x800227 <_binary_bootloader_orig_bin_end+0x7f8227>
+    7182:	20 93 26 02 	sts	0x0226, r18	; 0x800226 <_binary_bootloader_orig_bin_end+0x7f8226>
+    7186:	83 2f       	mov	r24, r19
+    7188:	37 ff       	sbrs	r19, 7
+    718a:	02 c0       	rjmp	.+4      	; 0x7190 <_binary_bootloader_orig_bin_start+0x7190>
+    718c:	8e ef       	ldi	r24, 0xFE	; 254
+    718e:	83 1b       	sub	r24, r19
+    7190:	88 0f       	add	r24, r24
+    7192:	82 17       	cp	r24, r18
+    7194:	10 f4       	brcc	.+4      	; 0x719a <_binary_bootloader_orig_bin_start+0x719a>
+    7196:	5d 98       	cbi	0x0b, 5	; 11
+    7198:	08 95       	ret
+    719a:	5d 9a       	sbi	0x0b, 5	; 11
+    719c:	08 95       	ret
+    719e:	84 b7       	in	r24, 0x34	; 52
+    71a0:	87 7f       	andi	r24, 0xF7	; 247
+    71a2:	84 bf       	out	0x34, r24	; 52
+    71a4:	90 e8       	ldi	r25, 0x80	; 128
+    71a6:	80 e0       	ldi	r24, 0x00	; 0
+    71a8:	0f b6       	in	r0, 0x3f	; 63
+    71aa:	f8 94       	cli
+    71ac:	90 93 61 00 	sts	0x0061, r25	; 0x800061 <_binary_bootloader_orig_bin_end+0x7f8061>
+    71b0:	80 93 61 00 	sts	0x0061, r24	; 0x800061 <_binary_bootloader_orig_bin_end+0x7f8061>
+    71b4:	0f be       	out	0x3f, r0	; 63
+    71b6:	81 e0       	ldi	r24, 0x01	; 1
+    71b8:	85 bf       	out	0x35, r24	; 53
+    71ba:	82 e0       	ldi	r24, 0x02	; 2
+    71bc:	85 bf       	out	0x35, r24	; 53
+    71be:	55 9a       	sbi	0x0a, 5	; 10
+    71c0:	e1 e6       	ldi	r30, 0x61	; 97
+    71c2:	f0 e0       	ldi	r31, 0x00	; 0
+    71c4:	90 83       	st	Z, r25
+    71c6:	10 82       	st	Z, r1
+    71c8:	5d 98       	cbi	0x0b, 5	; 11
+    71ca:	10 92 89 00 	sts	0x0089, r1	; 0x800089 <_binary_bootloader_orig_bin_end+0x7f8089>
+    71ce:	9a ef       	ldi	r25, 0xFA	; 250
+    71d0:	90 93 88 00 	sts	0x0088, r25	; 0x800088 <_binary_bootloader_orig_bin_end+0x7f8088>
+    71d4:	80 93 6f 00 	sts	0x006F, r24	; 0x80006f <_binary_bootloader_orig_bin_end+0x7f806f>
+    71d8:	83 e0       	ldi	r24, 0x03	; 3
+    71da:	80 93 81 00 	sts	0x0081, r24	; 0x800081 <_binary_bootloader_orig_bin_end+0x7f8081>
+    71de:	cd c3       	rjmp	.+1946   	; 0x797a <_binary_bootloader_orig_bin_start+0x797a>
+    71e0:	1f 92       	push	r1
+    71e2:	0f 92       	push	r0
+    71e4:	0f b6       	in	r0, 0x3f	; 63
+    71e6:	0f 92       	push	r0
+    71e8:	11 24       	eor	r1, r1
+    71ea:	2f 93       	push	r18
+    71ec:	8f 93       	push	r24
+    71ee:	9f 93       	push	r25
+    71f0:	ef 93       	push	r30
+    71f2:	ff 93       	push	r31
+    71f4:	10 92 85 00 	sts	0x0085, r1	; 0x800085 <_binary_bootloader_orig_bin_end+0x7f8085>
+    71f8:	10 92 84 00 	sts	0x0084, r1	; 0x800084 <_binary_bootloader_orig_bin_end+0x7f8084>
+    71fc:	e0 e0       	ldi	r30, 0x00	; 0
+    71fe:	f0 e0       	ldi	r31, 0x00	; 0
+    7200:	85 91       	lpm	r24, Z+
+    7202:	94 91       	lpm	r25, Z
+    7204:	01 96       	adiw	r24, 0x01	; 1
+    7206:	49 f0       	breq	.+18     	; 0x721a <_binary_bootloader_orig_bin_start+0x721a>
+    7208:	80 91 20 02 	lds	r24, 0x0220	; 0x800220 <_binary_bootloader_orig_bin_end+0x7f8220>
+    720c:	90 91 21 02 	lds	r25, 0x0221	; 0x800221 <_binary_bootloader_orig_bin_end+0x7f8221>
+    7210:	01 96       	adiw	r24, 0x01	; 1
+    7212:	90 93 21 02 	sts	0x0221, r25	; 0x800221 <_binary_bootloader_orig_bin_end+0x7f8221>
+    7216:	80 93 20 02 	sts	0x0220, r24	; 0x800220 <_binary_bootloader_orig_bin_end+0x7f8220>
+    721a:	ff 91       	pop	r31
+    721c:	ef 91       	pop	r30
+    721e:	9f 91       	pop	r25
+    7220:	8f 91       	pop	r24
+    7222:	2f 91       	pop	r18
+    7224:	0f 90       	pop	r0
+    7226:	0f be       	out	0x3f, r0	; 63
+    7228:	0f 90       	pop	r0
+    722a:	1f 90       	pop	r1
+    722c:	18 95       	reti
+    722e:	42 e0       	ldi	r20, 0x02	; 2
+    7230:	61 ec       	ldi	r22, 0xC1	; 193
+    7232:	82 e0       	ldi	r24, 0x02	; 2
+    7234:	37 d3       	rcall	.+1646   	; 0x78a4 <_binary_bootloader_orig_bin_start+0x78a4>
+    7236:	42 e1       	ldi	r20, 0x12	; 18
+    7238:	61 e8       	ldi	r22, 0x81	; 129
+    723a:	83 e0       	ldi	r24, 0x03	; 3
+    723c:	33 d3       	rcall	.+1638   	; 0x78a4 <_binary_bootloader_orig_bin_start+0x78a4>
+    723e:	42 e1       	ldi	r20, 0x12	; 18
+    7240:	60 e8       	ldi	r22, 0x80	; 128
+    7242:	84 e0       	ldi	r24, 0x04	; 4
+    7244:	2f c3       	rjmp	.+1630   	; 0x78a4 <_binary_bootloader_orig_bin_start+0x78a4>
+    7246:	80 91 54 02 	lds	r24, 0x0254	; 0x800254 <_binary_bootloader_orig_bin_end+0x7f8254>
+    724a:	98 2f       	mov	r25, r24
+    724c:	9f 77       	andi	r25, 0x7F	; 127
+    724e:	91 32       	cpi	r25, 0x21	; 33
+    7250:	39 f5       	brne	.+78     	; 0x72a0 <_binary_bootloader_orig_bin_start+0x72a0>
+    7252:	90 91 55 02 	lds	r25, 0x0255	; 0x800255 <_binary_bootloader_orig_bin_end+0x7f8255>
+    7256:	90 32       	cpi	r25, 0x20	; 32
+    7258:	91 f0       	breq	.+36     	; 0x727e <_binary_bootloader_orig_bin_start+0x727e>
+    725a:	91 32       	cpi	r25, 0x21	; 33
+    725c:	09 f5       	brne	.+66     	; 0x72a0 <_binary_bootloader_orig_bin_start+0x72a0>
+    725e:	81 3a       	cpi	r24, 0xA1	; 161
+    7260:	f9 f4       	brne	.+62     	; 0x72a0 <_binary_bootloader_orig_bin_start+0x72a0>
+    7262:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7266:	87 7f       	andi	r24, 0xF7	; 247
+    7268:	80 93 e8 00 	sts	0x00E8, r24	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    726c:	67 e0       	ldi	r22, 0x07	; 7
+    726e:	70 e0       	ldi	r23, 0x00	; 0
+    7270:	82 e0       	ldi	r24, 0x02	; 2
+    7272:	91 e0       	ldi	r25, 0x01	; 1
+    7274:	4b d4       	rcall	.+2198   	; 0x7b0c <_binary_bootloader_orig_bin_start+0x7b0c>
+    7276:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    727a:	8b 77       	andi	r24, 0x7B	; 123
+    727c:	0f c0       	rjmp	.+30     	; 0x729c <_binary_bootloader_orig_bin_start+0x729c>
+    727e:	81 32       	cpi	r24, 0x21	; 33
+    7280:	79 f4       	brne	.+30     	; 0x72a0 <_binary_bootloader_orig_bin_start+0x72a0>
+    7282:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7286:	87 7f       	andi	r24, 0xF7	; 247
+    7288:	80 93 e8 00 	sts	0x00E8, r24	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    728c:	67 e0       	ldi	r22, 0x07	; 7
+    728e:	70 e0       	ldi	r23, 0x00	; 0
+    7290:	82 e0       	ldi	r24, 0x02	; 2
+    7292:	91 e0       	ldi	r25, 0x01	; 1
+    7294:	98 d4       	rcall	.+2352   	; 0x7bc6 <_binary_bootloader_orig_bin_start+0x7bc6>
+    7296:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    729a:	8e 77       	andi	r24, 0x7E	; 126
+    729c:	80 93 e8 00 	sts	0x00E8, r24	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    72a0:	08 95       	ret
+    72a2:	4f 92       	push	r4
+    72a4:	5f 92       	push	r5
+    72a6:	6f 92       	push	r6
+    72a8:	7f 92       	push	r7
+    72aa:	af 92       	push	r10
+    72ac:	bf 92       	push	r11
+    72ae:	cf 92       	push	r12
+    72b0:	df 92       	push	r13
+    72b2:	ef 92       	push	r14
+    72b4:	ff 92       	push	r15
+    72b6:	0f 93       	push	r16
+    72b8:	1f 93       	push	r17
+    72ba:	cf 93       	push	r28
+    72bc:	df 93       	push	r29
+    72be:	84 e0       	ldi	r24, 0x04	; 4
+    72c0:	80 93 e9 00 	sts	0x00E9, r24	; 0x8000e9 <_binary_bootloader_orig_bin_end+0x7f80e9>
+    72c4:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    72c8:	82 ff       	sbrs	r24, 2
+    72ca:	25 c2       	rjmp	.+1098   	; 0x7716 <_binary_bootloader_orig_bin_start+0x7716>
+    72cc:	1d df       	rcall	.-454    	; 0x7108 <_binary_bootloader_orig_bin_start+0x7108>
+    72ce:	c8 2f       	mov	r28, r24
+    72d0:	85 34       	cpi	r24, 0x45	; 69
+    72d2:	81 f4       	brne	.+32     	; 0x72f4 <_binary_bootloader_orig_bin_start+0x72f4>
+    72d4:	8c e4       	ldi	r24, 0x4C	; 76
+    72d6:	9d e1       	ldi	r25, 0x1D	; 29
+    72d8:	90 93 21 02 	sts	0x0221, r25	; 0x800221 <_binary_bootloader_orig_bin_end+0x7f8221>
+    72dc:	80 93 20 02 	sts	0x0220, r24	; 0x800220 <_binary_bootloader_orig_bin_end+0x7f8220>
+    72e0:	07 b6       	in	r0, 0x37	; 55
+    72e2:	00 fc       	sbrc	r0, 0
+    72e4:	fd cf       	rjmp	.-6      	; 0x72e0 <_binary_bootloader_orig_bin_start+0x72e0>
+    72e6:	f9 99       	sbic	0x1f, 1	; 31
+    72e8:	fe cf       	rjmp	.-4      	; 0x72e6 <_binary_bootloader_orig_bin_start+0x72e6>
+    72ea:	81 e1       	ldi	r24, 0x11	; 17
+    72ec:	80 93 57 00 	sts	0x0057, r24	; 0x800057 <_binary_bootloader_orig_bin_end+0x7f8057>
+    72f0:	e8 95       	spm
+    72f2:	03 c0       	rjmp	.+6      	; 0x72fa <_binary_bootloader_orig_bin_start+0x72fa>
+    72f4:	84 35       	cpi	r24, 0x54	; 84
+    72f6:	21 f4       	brne	.+8      	; 0x7300 <_binary_bootloader_orig_bin_start+0x7300>
+    72f8:	07 df       	rcall	.-498    	; 0x7108 <_binary_bootloader_orig_bin_start+0x7108>
+    72fa:	8d e0       	ldi	r24, 0x0D	; 13
+    72fc:	1c df       	rcall	.-456    	; 0x7136 <_binary_bootloader_orig_bin_start+0x7136>
+    72fe:	e2 c1       	rjmp	.+964    	; 0x76c4 <_binary_bootloader_orig_bin_start+0x76c4>
+    7300:	8c 34       	cpi	r24, 0x4C	; 76
+    7302:	d9 f3       	breq	.-10     	; 0x72fa <_binary_bootloader_orig_bin_start+0x72fa>
+    7304:	80 35       	cpi	r24, 0x50	; 80
+    7306:	c9 f3       	breq	.-14     	; 0x72fa <_binary_bootloader_orig_bin_start+0x72fa>
+    7308:	84 37       	cpi	r24, 0x74	; 116
+    730a:	21 f4       	brne	.+8      	; 0x7314 <_binary_bootloader_orig_bin_start+0x7314>
+    730c:	84 e4       	ldi	r24, 0x44	; 68
+    730e:	13 df       	rcall	.-474    	; 0x7136 <_binary_bootloader_orig_bin_start+0x7136>
+    7310:	80 e0       	ldi	r24, 0x00	; 0
+    7312:	f4 cf       	rjmp	.-24     	; 0x72fc <_binary_bootloader_orig_bin_start+0x72fc>
+    7314:	81 36       	cpi	r24, 0x61	; 97
+    7316:	11 f4       	brne	.+4      	; 0x731c <_binary_bootloader_orig_bin_start+0x731c>
+    7318:	89 e5       	ldi	r24, 0x59	; 89
+    731a:	f0 cf       	rjmp	.-32     	; 0x72fc <_binary_bootloader_orig_bin_start+0x72fc>
+    731c:	81 34       	cpi	r24, 0x41	; 65
+    731e:	91 f4       	brne	.+36     	; 0x7344 <_binary_bootloader_orig_bin_start+0x7344>
+    7320:	f3 de       	rcall	.-538    	; 0x7108 <_binary_bootloader_orig_bin_start+0x7108>
+    7322:	c8 2f       	mov	r28, r24
+    7324:	f1 de       	rcall	.-542    	; 0x7108 <_binary_bootloader_orig_bin_start+0x7108>
+    7326:	90 e0       	ldi	r25, 0x00	; 0
+    7328:	88 0f       	add	r24, r24
+    732a:	99 1f       	adc	r25, r25
+    732c:	2c 2f       	mov	r18, r28
+    732e:	30 e0       	ldi	r19, 0x00	; 0
+    7330:	32 2f       	mov	r19, r18
+    7332:	22 27       	eor	r18, r18
+    7334:	33 0f       	add	r19, r19
+    7336:	82 2b       	or	r24, r18
+    7338:	93 2b       	or	r25, r19
+    733a:	09 2e       	mov	r0, r25
+    733c:	00 0c       	add	r0, r0
+    733e:	aa 0b       	sbc	r26, r26
+    7340:	bb 0b       	sbc	r27, r27
+    7342:	94 c1       	rjmp	.+808    	; 0x766c <_binary_bootloader_orig_bin_start+0x766c>
+    7344:	80 37       	cpi	r24, 0x70	; 112
+    7346:	11 f4       	brne	.+4      	; 0x734c <_binary_bootloader_orig_bin_start+0x734c>
+    7348:	83 e5       	ldi	r24, 0x53	; 83
+    734a:	d8 cf       	rjmp	.-80     	; 0x72fc <_binary_bootloader_orig_bin_start+0x72fc>
+    734c:	83 35       	cpi	r24, 0x53	; 83
+    734e:	49 f4       	brne	.+18     	; 0x7362 <_binary_bootloader_orig_bin_start+0x7362>
+    7350:	c7 e1       	ldi	r28, 0x17	; 23
+    7352:	d2 e0       	ldi	r29, 0x02	; 2
+    7354:	1c 2f       	mov	r17, r28
+    7356:	19 5f       	subi	r17, 0xF9	; 249
+    7358:	89 91       	ld	r24, Y+
+    735a:	ed de       	rcall	.-550    	; 0x7136 <_binary_bootloader_orig_bin_start+0x7136>
+    735c:	1c 13       	cpse	r17, r28
+    735e:	fc cf       	rjmp	.-8      	; 0x7358 <_binary_bootloader_orig_bin_start+0x7358>
+    7360:	b1 c1       	rjmp	.+866    	; 0x76c4 <_binary_bootloader_orig_bin_start+0x76c4>
+    7362:	86 35       	cpi	r24, 0x56	; 86
+    7364:	21 f4       	brne	.+8      	; 0x736e <_binary_bootloader_orig_bin_start+0x736e>
+    7366:	81 e3       	ldi	r24, 0x31	; 49
+    7368:	e6 de       	rcall	.-564    	; 0x7136 <_binary_bootloader_orig_bin_start+0x7136>
+    736a:	80 e3       	ldi	r24, 0x30	; 48
+    736c:	c7 cf       	rjmp	.-114    	; 0x72fc <_binary_bootloader_orig_bin_start+0x72fc>
+    736e:	83 37       	cpi	r24, 0x73	; 115
+    7370:	31 f4       	brne	.+12     	; 0x737e <_binary_bootloader_orig_bin_start+0x737e>
+    7372:	87 e8       	ldi	r24, 0x87	; 135
+    7374:	e0 de       	rcall	.-576    	; 0x7136 <_binary_bootloader_orig_bin_start+0x7136>
+    7376:	85 e9       	ldi	r24, 0x95	; 149
+    7378:	de de       	rcall	.-580    	; 0x7136 <_binary_bootloader_orig_bin_start+0x7136>
+    737a:	8e e1       	ldi	r24, 0x1E	; 30
+    737c:	bf cf       	rjmp	.-130    	; 0x72fc <_binary_bootloader_orig_bin_start+0x72fc>
+    737e:	85 36       	cpi	r24, 0x65	; 101
+    7380:	f1 f4       	brne	.+60     	; 0x73be <_binary_bootloader_orig_bin_start+0x73be>
+    7382:	e0 e0       	ldi	r30, 0x00	; 0
+    7384:	f0 e0       	ldi	r31, 0x00	; 0
+    7386:	83 e0       	ldi	r24, 0x03	; 3
+    7388:	95 e0       	ldi	r25, 0x05	; 5
+    738a:	07 b6       	in	r0, 0x37	; 55
+    738c:	00 fc       	sbrc	r0, 0
+    738e:	fd cf       	rjmp	.-6      	; 0x738a <_binary_bootloader_orig_bin_start+0x738a>
+    7390:	f9 99       	sbic	0x1f, 1	; 31
+    7392:	fe cf       	rjmp	.-4      	; 0x7390 <_binary_bootloader_orig_bin_start+0x7390>
+    7394:	80 93 57 00 	sts	0x0057, r24	; 0x800057 <_binary_bootloader_orig_bin_end+0x7f8057>
+    7398:	e8 95       	spm
+    739a:	07 b6       	in	r0, 0x37	; 55
+    739c:	00 fc       	sbrc	r0, 0
+    739e:	fd cf       	rjmp	.-6      	; 0x739a <_binary_bootloader_orig_bin_start+0x739a>
+    73a0:	f9 99       	sbic	0x1f, 1	; 31
+    73a2:	fe cf       	rjmp	.-4      	; 0x73a0 <_binary_bootloader_orig_bin_start+0x73a0>
+    73a4:	90 93 57 00 	sts	0x0057, r25	; 0x800057 <_binary_bootloader_orig_bin_end+0x7f8057>
+    73a8:	e8 95       	spm
+    73aa:	07 b6       	in	r0, 0x37	; 55
+    73ac:	00 fc       	sbrc	r0, 0
+    73ae:	fd cf       	rjmp	.-6      	; 0x73aa <_binary_bootloader_orig_bin_start+0x73aa>
+    73b0:	e0 58       	subi	r30, 0x80	; 128
+    73b2:	ff 4f       	sbci	r31, 0xFF	; 255
+    73b4:	e1 15       	cp	r30, r1
+    73b6:	40 e7       	ldi	r20, 0x70	; 112
+    73b8:	f4 07       	cpc	r31, r20
+    73ba:	39 f7       	brne	.-50     	; 0x738a <_binary_bootloader_orig_bin_start+0x738a>
+    73bc:	9e cf       	rjmp	.-196    	; 0x72fa <_binary_bootloader_orig_bin_start+0x72fa>
+    73be:	82 37       	cpi	r24, 0x72	; 114
+    73c0:	19 f4       	brne	.+6      	; 0x73c8 <_binary_bootloader_orig_bin_start+0x73c8>
+    73c2:	e1 e0       	ldi	r30, 0x01	; 1
+    73c4:	f0 e0       	ldi	r31, 0x00	; 0
+    73c6:	0e c0       	rjmp	.+28     	; 0x73e4 <_binary_bootloader_orig_bin_start+0x73e4>
+    73c8:	86 34       	cpi	r24, 0x46	; 70
+    73ca:	19 f4       	brne	.+6      	; 0x73d2 <_binary_bootloader_orig_bin_start+0x73d2>
+    73cc:	e0 e0       	ldi	r30, 0x00	; 0
+    73ce:	f0 e0       	ldi	r31, 0x00	; 0
+    73d0:	09 c0       	rjmp	.+18     	; 0x73e4 <_binary_bootloader_orig_bin_start+0x73e4>
+    73d2:	8e 34       	cpi	r24, 0x4E	; 78
+    73d4:	19 f4       	brne	.+6      	; 0x73dc <_binary_bootloader_orig_bin_start+0x73dc>
+    73d6:	e3 e0       	ldi	r30, 0x03	; 3
+    73d8:	f0 e0       	ldi	r31, 0x00	; 0
+    73da:	04 c0       	rjmp	.+8      	; 0x73e4 <_binary_bootloader_orig_bin_start+0x73e4>
+    73dc:	81 35       	cpi	r24, 0x51	; 81
+    73de:	39 f4       	brne	.+14     	; 0x73ee <_binary_bootloader_orig_bin_start+0x73ee>
+    73e0:	e2 e0       	ldi	r30, 0x02	; 2
+    73e2:	f0 e0       	ldi	r31, 0x00	; 0
+    73e4:	89 e0       	ldi	r24, 0x09	; 9
+    73e6:	80 93 57 00 	sts	0x0057, r24	; 0x800057 <_binary_bootloader_orig_bin_end+0x7f8057>
+    73ea:	84 91       	lpm	r24, Z
+    73ec:	87 cf       	rjmp	.-242    	; 0x72fc <_binary_bootloader_orig_bin_start+0x72fc>
+    73ee:	82 36       	cpi	r24, 0x62	; 98
+    73f0:	31 f4       	brne	.+12     	; 0x73fe <_binary_bootloader_orig_bin_start+0x73fe>
+    73f2:	89 e5       	ldi	r24, 0x59	; 89
+    73f4:	a0 de       	rcall	.-704    	; 0x7136 <_binary_bootloader_orig_bin_start+0x7136>
+    73f6:	80 e0       	ldi	r24, 0x00	; 0
+    73f8:	9e de       	rcall	.-708    	; 0x7136 <_binary_bootloader_orig_bin_start+0x7136>
+    73fa:	80 e8       	ldi	r24, 0x80	; 128
+    73fc:	7f cf       	rjmp	.-258    	; 0x72fc <_binary_bootloader_orig_bin_start+0x72fc>
+    73fe:	82 34       	cpi	r24, 0x42	; 66
+    7400:	19 f0       	breq	.+6      	; 0x7408 <_binary_bootloader_orig_bin_start+0x7408>
+    7402:	87 36       	cpi	r24, 0x67	; 103
+    7404:	09 f0       	breq	.+2      	; 0x7408 <_binary_bootloader_orig_bin_start+0x7408>
+    7406:	16 c1       	rjmp	.+556    	; 0x7634 <_binary_bootloader_orig_bin_start+0x7634>
+    7408:	10 92 21 02 	sts	0x0221, r1	; 0x800221 <_binary_bootloader_orig_bin_end+0x7f8221>
+    740c:	10 92 20 02 	sts	0x0220, r1	; 0x800220 <_binary_bootloader_orig_bin_end+0x7f8220>
+    7410:	7b de       	rcall	.-778    	; 0x7108 <_binary_bootloader_orig_bin_start+0x7108>
+    7412:	08 2f       	mov	r16, r24
+    7414:	79 de       	rcall	.-782    	; 0x7108 <_binary_bootloader_orig_bin_start+0x7108>
+    7416:	d8 2f       	mov	r29, r24
+    7418:	77 de       	rcall	.-786    	; 0x7108 <_binary_bootloader_orig_bin_start+0x7108>
+    741a:	18 2f       	mov	r17, r24
+    741c:	8b eb       	ldi	r24, 0xBB	; 187
+    741e:	81 0f       	add	r24, r17
+    7420:	82 30       	cpi	r24, 0x02	; 2
+    7422:	10 f0       	brcs	.+4      	; 0x7428 <_binary_bootloader_orig_bin_start+0x7428>
+    7424:	8f e3       	ldi	r24, 0x3F	; 63
+    7426:	6a cf       	rjmp	.-300    	; 0x72fc <_binary_bootloader_orig_bin_start+0x72fc>
+    7428:	2d 2f       	mov	r18, r29
+    742a:	30 e0       	ldi	r19, 0x00	; 0
+    742c:	30 2b       	or	r19, r16
+    742e:	10 92 6f 00 	sts	0x006F, r1	; 0x80006f <_binary_bootloader_orig_bin_end+0x7f806f>
+    7432:	c7 36       	cpi	r28, 0x67	; 103
+    7434:	09 f0       	breq	.+2      	; 0x7438 <_binary_bootloader_orig_bin_start+0x7438>
+    7436:	48 c0       	rjmp	.+144    	; 0x74c8 <_binary_bootloader_orig_bin_start+0x74c8>
+    7438:	07 b6       	in	r0, 0x37	; 55
+    743a:	00 fc       	sbrc	r0, 0
+    743c:	fd cf       	rjmp	.-6      	; 0x7438 <_binary_bootloader_orig_bin_start+0x7438>
+    743e:	f9 99       	sbic	0x1f, 1	; 31
+    7440:	fe cf       	rjmp	.-4      	; 0x743e <_binary_bootloader_orig_bin_start+0x743e>
+    7442:	81 e1       	ldi	r24, 0x11	; 17
+    7444:	80 93 57 00 	sts	0x0057, r24	; 0x800057 <_binary_bootloader_orig_bin_end+0x7f8057>
+    7448:	e8 95       	spm
+    744a:	e9 01       	movw	r28, r18
+    744c:	00 e0       	ldi	r16, 0x00	; 0
+    744e:	bb 24       	eor	r11, r11
+    7450:	b3 94       	inc	r11
+    7452:	20 97       	sbiw	r28, 0x00	; 0
+    7454:	09 f4       	brne	.+2      	; 0x7458 <_binary_bootloader_orig_bin_start+0x7458>
+    7456:	ea c0       	rjmp	.+468    	; 0x762c <_binary_bootloader_orig_bin_start+0x762c>
+    7458:	c0 90 22 02 	lds	r12, 0x0222	; 0x800222 <_binary_bootloader_orig_bin_end+0x7f8222>
+    745c:	d0 90 23 02 	lds	r13, 0x0223	; 0x800223 <_binary_bootloader_orig_bin_end+0x7f8223>
+    7460:	e0 90 24 02 	lds	r14, 0x0224	; 0x800224 <_binary_bootloader_orig_bin_end+0x7f8224>
+    7464:	f0 90 25 02 	lds	r15, 0x0225	; 0x800225 <_binary_bootloader_orig_bin_end+0x7f8225>
+    7468:	16 34       	cpi	r17, 0x46	; 70
+    746a:	b9 f4       	brne	.+46     	; 0x749a <_binary_bootloader_orig_bin_start+0x749a>
+    746c:	e0 2f       	mov	r30, r16
+    746e:	f0 e0       	ldi	r31, 0x00	; 0
+    7470:	ec 29       	or	r30, r12
+    7472:	fd 29       	or	r31, r13
+    7474:	84 91       	lpm	r24, Z
+    7476:	5f de       	rcall	.-834    	; 0x7136 <_binary_bootloader_orig_bin_start+0x7136>
+    7478:	00 23       	and	r16, r16
+    747a:	69 f0       	breq	.+26     	; 0x7496 <_binary_bootloader_orig_bin_start+0x7496>
+    747c:	52 e0       	ldi	r21, 0x02	; 2
+    747e:	c5 0e       	add	r12, r21
+    7480:	d1 1c       	adc	r13, r1
+    7482:	e1 1c       	adc	r14, r1
+    7484:	f1 1c       	adc	r15, r1
+    7486:	c0 92 22 02 	sts	0x0222, r12	; 0x800222 <_binary_bootloader_orig_bin_end+0x7f8222>
+    748a:	d0 92 23 02 	sts	0x0223, r13	; 0x800223 <_binary_bootloader_orig_bin_end+0x7f8223>
+    748e:	e0 92 24 02 	sts	0x0224, r14	; 0x800224 <_binary_bootloader_orig_bin_end+0x7f8224>
+    7492:	f0 92 25 02 	sts	0x0225, r15	; 0x800225 <_binary_bootloader_orig_bin_end+0x7f8225>
+    7496:	0b 25       	eor	r16, r11
+    7498:	15 c0       	rjmp	.+42     	; 0x74c4 <_binary_bootloader_orig_bin_start+0x74c4>
+    749a:	d7 01       	movw	r26, r14
+    749c:	c6 01       	movw	r24, r12
+    749e:	b6 95       	lsr	r27
+    74a0:	a7 95       	ror	r26
+    74a2:	97 95       	ror	r25
+    74a4:	87 95       	ror	r24
+    74a6:	dd d4       	rcall	.+2490   	; 0x7e62 <_binary_bootloader_orig_bin_start+0x7e62>
+    74a8:	46 de       	rcall	.-884    	; 0x7136 <_binary_bootloader_orig_bin_start+0x7136>
+    74aa:	82 e0       	ldi	r24, 0x02	; 2
+    74ac:	c8 0e       	add	r12, r24
+    74ae:	d1 1c       	adc	r13, r1
+    74b0:	e1 1c       	adc	r14, r1
+    74b2:	f1 1c       	adc	r15, r1
+    74b4:	c0 92 22 02 	sts	0x0222, r12	; 0x800222 <_binary_bootloader_orig_bin_end+0x7f8222>
+    74b8:	d0 92 23 02 	sts	0x0223, r13	; 0x800223 <_binary_bootloader_orig_bin_end+0x7f8223>
+    74bc:	e0 92 24 02 	sts	0x0224, r14	; 0x800224 <_binary_bootloader_orig_bin_end+0x7f8224>
+    74c0:	f0 92 25 02 	sts	0x0225, r15	; 0x800225 <_binary_bootloader_orig_bin_end+0x7f8225>
+    74c4:	21 97       	sbiw	r28, 0x01	; 1
+    74c6:	c5 cf       	rjmp	.-118    	; 0x7452 <_binary_bootloader_orig_bin_start+0x7452>
+//uint32_t PageStartAddress = CurrAddress;
+    74c8:	c0 90 22 02 	lds	r12, 0x0222	; 0x800222 <_binary_bootloader_orig_bin_end+0x7f8222>
+    74cc:	d0 90 23 02 	lds	r13, 0x0223	; 0x800223 <_binary_bootloader_orig_bin_end+0x7f8223>
+    74d0:	e0 90 24 02 	lds	r14, 0x0224	; 0x800224 <_binary_bootloader_orig_bin_end+0x7f8224>
+    74d4:	f0 90 25 02 	lds	r15, 0x0225	; 0x800225 <_binary_bootloader_orig_bin_end+0x7f8225>
+//if (MemoryType == 'F')
+    74d8:	16 34       	cpi	r17, 0x46	; 70
+    74da:	21 f5       	brne	.+72     	; 0x7524 <_binary_bootloader_orig_bin_start+0x7524>
+//BootloaderAPI_ErasePage(const uint32_t Address)
+    74dc:	d7 01       	movw	r26, r14
+    74de:	c6 01       	movw	r24, r12
+//bool PageAddressIsAligned = !(Address & (SPM_PAGESIZE - 1));
+    74e0:	8f 77       	andi	r24, 0x7F	; 127
+    74e2:	99 27       	eor	r25, r25
+    74e4:	aa 27       	eor	r26, r26
+    74e6:	bb 27       	eor	r27, r27
+//(Address < BOOT_START_ADDR)
+    74e8:	c1 14       	cp	r12, r1
+    74ea:	e0 e7       	ldi	r30, 0x70	; 112
+    74ec:	de 06       	cpc	r13, r30
+    74ee:	e1 04       	cpc	r14, r1
+    74f0:	f1 04       	cpc	r15, r1
+//return (Address < BOOT_START_ADDR) && PageAddressIsAligned;
+    74f2:	c0 f4       	brcc	.+48     	; 0x7524 <_binary_bootloader_orig_bin_start+0x7524>
+    74f4:	89 2b       	or	r24, r25
+    74f6:	8a 2b       	or	r24, r26
+    74f8:	8b 2b       	or	r24, r27
+    74fa:	a1 f4       	brne	.+40     	; 0x7524 <_binary_bootloader_orig_bin_start+0x7524>
+
+// CRITICAL start
+//    {
+    74fc:	8f b7       	in	r24, 0x3f	; 63
+    74fe:	f8 94       	cli
+//        boot_page_erase_safe(Address);
+    7500:	07 b6       	in	r0, 0x37	; 55
+    7502:	00 fc       	sbrc	r0, 0
+    7504:	fd cf       	rjmp	.-6      	; 0x7500 <_binary_bootloader_orig_bin_start+0x7500>
+    7506:	f9 99       	sbic	0x1f, 1	; 31
+    7508:	fe cf       	rjmp	.-4      	; 0x7506 <_binary_bootloader_orig_bin_start+0x7506>
+    750a:	93 e0       	ldi	r25, 0x03	; 3
+    750c:	f6 01       	movw	r30, r12
+    750e:	90 93 57 00 	sts	0x0057, r25	; 0x800057 <_binary_bootloader_orig_bin_end+0x7f8057>
+    7512:	e8 95       	spm
+//        boot_spm_busy_wait();
+    7514:	07 b6       	in	r0, 0x37	; 55
+    7516:	00 fc       	sbrc	r0, 0
+    7518:	fd cf       	rjmp	.-6      	; 0x7514 <_binary_bootloader_orig_bin_start+0x7514>
+//        boot_rww_enable();
+    751a:	91 e1       	ldi	r25, 0x11	; 17
+    751c:	90 93 57 00 	sts	0x0057, r25	; 0x800057 <_binary_bootloader_orig_bin_end+0x7f8057>
+    7520:	e8 95       	spm
+CRITICAL end
+    7522:	8f bf       	out	0x3f, r24	; 63
+
+//	while (BlockSize--)
+//	{
+    7524:	e9 01       	movw	r28, r18
+    7526:	b1 2c       	mov	r11, r1				// uint8_t  LowByte  = 0;
+    7528:	00 e0       	ldi	r16, 0x00	; 0		HighByte=0 init
+    752a:	aa 24       	eor	r10, r10			r10 = 1 for SPMCSR
+    752c:	a3 94       	inc	r10
+    752e:	20 97       	sbiw	r28, 0x00	; 0
+    7530:	09 f4       	brne	.+2      	; 0x7534 <_binary_bootloader_orig_bin_start+0x7534>
+    7532:	54 c0       	rjmp	.+168    	; 0x75dc <_binary_bootloader_orig_bin_start+0x75dc> (break)
+//	if (MemoryType == 'F')
+//		{
+    7534:	16 34       	cpi	r17, 0x46	; 70
+    7536:	69 f5       	brne	.+90     	; 0x7592 <_binary_bootloader_orig_bin_start+0x7592> //not F
+//			if (HighByte)
+    7538:	00 23       	and	r16, r16
+    753a:	39 f1       	breq	.+78     	; 0x758a <_binary_bootloader_orig_bin_start+0x758a> //goto else (highByte == 0)
+
+// boot_page_fill_safe(CurrAddress, ((FetchNextCommandByte() << 8) | LowByte));
+    753c:	07 b6       	in	r0, 0x37	; 55
+    753e:	00 fc       	sbrc	r0, 0
+    7540:	fd cf       	rjmp	.-6      	; 0x753c <_binary_bootloader_orig_bin_start+0x753c>
+    7542:	f9 99       	sbic	0x1f, 1	; 31
+    7544:	fe cf       	rjmp	.-4      	; 0x7542 <_binary_bootloader_orig_bin_start+0x7542>
+    7546:	40 90 22 02 	lds	r4, 0x0222	; 0x800222 <_binary_bootloader_orig_bin_end+0x7f8222>
+    754a:	50 90 23 02 	lds	r5, 0x0223	; 0x800223 <_binary_bootloader_orig_bin_end+0x7f8223>
+    754e:	60 90 24 02 	lds	r6, 0x0224	; 0x800224 <_binary_bootloader_orig_bin_end+0x7f8224>
+    7552:	70 90 25 02 	lds	r7, 0x0225	; 0x800225 <_binary_bootloader_orig_bin_end+0x7f8225>
+    7556:	d8 dd       	rcall	.-1104   	; 0x7108 <_binary_bootloader_orig_bin_start+0x7108> //probably FetchNextCommandByte()
+    7558:	2b 2d       	mov	r18, r11 //r11 is LowByte
+    755a:	30 e0       	ldi	r19, 0x00	; 0
+    755c:	a9 01       	movw	r20, r18 //r20 is the 16bit accumulator for data word
+    755e:	58 2b       	or	r21, r24 //r24 is the FetchNextCommandByte() return
+    7560:	f2 01       	movw	r30, r4
+    7562:	0a 01       	movw	r0, r20
+    7564:	a0 92 57 00 	sts	0x0057, r10	; 0x800057 <_binary_bootloader_orig_bin_end+0x7f8057>
+    7568:	e8 95       	spm
+    756a:	11 24       	eor	r1, r1
+
+// CurrAddress += 2;
+    756c:	b3 01       	movw	r22, r6
+    756e:	a2 01       	movw	r20, r4
+    7570:	4e 5f       	subi	r20, 0xFE	; 254
+    7572:	5f 4f       	sbci	r21, 0xFF	; 255
+    7574:	6f 4f       	sbci	r22, 0xFF	; 255
+    7576:	7f 4f       	sbci	r23, 0xFF	; 255
+    7578:	40 93 22 02 	sts	0x0222, r20	; 0x800222 <_binary_bootloader_orig_bin_end+0x7f8222>
+    757c:	50 93 23 02 	sts	0x0223, r21	; 0x800223 <_binary_bootloader_orig_bin_end+0x7f8223>
+    7580:	60 93 24 02 	sts	0x0224, r22	; 0x800224 <_binary_bootloader_orig_bin_end+0x7f8224>
+    7584:	70 93 25 02 	sts	0x0225, r23	; 0x800225 <_binary_bootloader_orig_bin_end+0x7f8225>
+
+
+    7588:	02 c0       	rjmp	.+4      	; 0x758e <_binary_bootloader_orig_bin_start+0x758e>
+// 	else
+// 	{
+//		LowByte = FetchNextCommandByte();
+// 	}
+    758a:	be dd       	rcall	.-1156   	; 0x7108 <_binary_bootloader_orig_bin_start+0x7108>
+    758c:	b8 2e       	mov	r11, r24
+
+//HighByte = !HighByte;
+    758e:	0a 25       	eor	r16, r10
+
+//skip over eeprom write
+    7590:	23 c0       	rjmp	.+70     	; 0x75d8 <_binary_bootloader_orig_bin_start+0x75d8>
+
+    7592:	ba dd       	rcall	.-1164   	; 0x7108 <_binary_bootloader_orig_bin_start+0x7108>
+    7594:	68 2f       	mov	r22, r24
+    7596:	80 91 22 02 	lds	r24, 0x0222	; 0x800222 <_binary_bootloader_orig_bin_end+0x7f8222>
+    759a:	90 91 23 02 	lds	r25, 0x0223	; 0x800223 <_binary_bootloader_orig_bin_end+0x7f8223>
+    759e:	a0 91 24 02 	lds	r26, 0x0224	; 0x800224 <_binary_bootloader_orig_bin_end+0x7f8224>
+    75a2:	b0 91 25 02 	lds	r27, 0x0225	; 0x800225 <_binary_bootloader_orig_bin_end+0x7f8225>
+    75a6:	b6 95       	lsr	r27
+    75a8:	a7 95       	ror	r26
+    75aa:	97 95       	ror	r25
+    75ac:	87 95       	ror	r24
+    75ae:	61 d4       	rcall	.+2242   	; 0x7e72 <_binary_bootloader_orig_bin_start+0x7e72>
+    75b0:	40 91 22 02 	lds	r20, 0x0222	; 0x800222 <_binary_bootloader_orig_bin_end+0x7f8222>
+    75b4:	50 91 23 02 	lds	r21, 0x0223	; 0x800223 <_binary_bootloader_orig_bin_end+0x7f8223>
+    75b8:	60 91 24 02 	lds	r22, 0x0224	; 0x800224 <_binary_bootloader_orig_bin_end+0x7f8224>
+    75bc:	70 91 25 02 	lds	r23, 0x0225	; 0x800225 <_binary_bootloader_orig_bin_end+0x7f8225>
+    75c0:	4e 5f       	subi	r20, 0xFE	; 254
+    75c2:	5f 4f       	sbci	r21, 0xFF	; 255
+    75c4:	6f 4f       	sbci	r22, 0xFF	; 255
+    75c6:	7f 4f       	sbci	r23, 0xFF	; 255
+    75c8:	40 93 22 02 	sts	0x0222, r20	; 0x800222 <_binary_bootloader_orig_bin_end+0x7f8222>
+    75cc:	50 93 23 02 	sts	0x0223, r21	; 0x800223 <_binary_bootloader_orig_bin_end+0x7f8223>
+    75d0:	60 93 24 02 	sts	0x0224, r22	; 0x800224 <_binary_bootloader_orig_bin_end+0x7f8224>
+    75d4:	70 93 25 02 	sts	0x0225, r23	; 0x800225 <_binary_bootloader_orig_bin_end+0x7f8225>
+// post-decrement BlockSize and go back to while beginning
+    75d8:	21 97       	sbiw	r28, 0x01	; 1
+    75da:	a9 cf       	rjmp	.-174    	; 0x752e <_binary_bootloader_orig_bin_start+0x752e>
+
+// after while
+// if (MemoryType == 'F')
+    75dc:	16 34       	cpi	r17, 0x46	; 70
+    75de:	21 f5       	brne	.+72     	; 0x7628 <_binary_bootloader_orig_bin_start+0x7628> // jump if not F
+
+// page validity check. Must be skipped
+    75e0:	d7 01       	movw	r26, r14
+    75e2:	c6 01       	movw	r24, r12
+    75e4:	8f 77       	andi	r24, 0x7F	; 127
+    75e6:	99 27       	eor	r25, r25
+    75e8:	aa 27       	eor	r26, r26
+    75ea:	bb 27       	eor	r27, r27
+    75ec:	c1 14       	cp	r12, r1
+    75ee:	f0 e7       	ldi	r31, 0x70	; 112
+    75f0:	df 06       	cpc	r13, r31
+    75f2:	e1 04       	cpc	r14, r1
+    75f4:	f1 04       	cpc	r15, r1
+    75f6:	c0 f4       	brcc	.+48     	; 0x7628 <_binary_bootloader_orig_bin_start+0x7628>
+    75f8:	89 2b       	or	r24, r25
+    75fa:	8a 2b       	or	r24, r26
+    75fc:	8b 2b       	or	r24, r27
+    75fe:	a1 f4       	brne	.+40     	; 0x7628 <_binary_bootloader_orig_bin_start+0x7628>
+// end of page validity check
+// Critical section start
+    7600:	8f b7       	in	r24, 0x3f	; 63
+    7602:	f8 94       	cli
+// boot_page_write_safe(Address);
+    7604:	07 b6       	in	r0, 0x37	; 55
+    7606:	00 fc       	sbrc	r0, 0
+    7608:	fd cf       	rjmp	.-6      	; 0x7604 <_binary_bootloader_orig_bin_start+0x7604>
+    760a:	f9 99       	sbic	0x1f, 1	; 31
+    760c:	fe cf       	rjmp	.-4      	; 0x760a <_binary_bootloader_orig_bin_start+0x760a>
+    760e:	95 e0       	ldi	r25, 0x05	; 5
+    7610:	f6 01       	movw	r30, r12
+    7612:	90 93 57 00 	sts	0x0057, r25	; 0x800057 <_binary_bootloader_orig_bin_end+0x7f8057>
+    7616:	e8 95       	spm
+    7618:	07 b6       	in	r0, 0x37	; 55
+    761a:	00 fc       	sbrc	r0, 0
+    761c:	fd cf       	rjmp	.-6      	; 0x7618 <_binary_bootloader_orig_bin_start+0x7618>
+// boot_rww_enable();
+    761e:	91 e1       	ldi	r25, 0x11	; 17
+    7620:	90 93 57 00 	sts	0x0057, r25	; 0x800057 <_binary_bootloader_orig_bin_end+0x7f8057>
+    7624:	e8 95       	spm
+// Critical section end
+    7626:	8f bf       	out	0x3f, r24	; 63
+
+// WriteNextResponseByte('\r');
+    7628:	8d e0       	ldi	r24, 0x0D	; 13
+    762a:	85 dd       	rcall	.-1270   	; 0x7136 <_binary_bootloader_orig_bin_start+0x7136> //end of page write. We never end up executing this
+
+// TIMSK1 = (1 << OCIE1A);
+    762c:	82 e0       	ldi	r24, 0x02	; 2
+    762e:	80 93 6f 00 	sts	0x006F, r24	; 0x80006f <_binary_bootloader_orig_bin_end+0x7f806f>
+
+
+    7632:	48 c0       	rjmp	.+144    	; 0x76c4 <_binary_bootloader_orig_bin_start+0x76c4>
+    7634:	84 34       	cpi	r24, 0x44	; 68
+    7636:	19 f5       	brne	.+70     	; 0x767e <_binary_bootloader_orig_bin_start+0x767e>
+    7638:	67 dd       	rcall	.-1330   	; 0x7108 <_binary_bootloader_orig_bin_start+0x7108>
+    763a:	68 2f       	mov	r22, r24
+    763c:	80 91 22 02 	lds	r24, 0x0222	; 0x800222 <_binary_bootloader_orig_bin_end+0x7f8222>
+    7640:	90 91 23 02 	lds	r25, 0x0223	; 0x800223 <_binary_bootloader_orig_bin_end+0x7f8223>
+    7644:	a0 91 24 02 	lds	r26, 0x0224	; 0x800224 <_binary_bootloader_orig_bin_end+0x7f8224>
+    7648:	b0 91 25 02 	lds	r27, 0x0225	; 0x800225 <_binary_bootloader_orig_bin_end+0x7f8225>
+    764c:	b6 95       	lsr	r27
+    764e:	a7 95       	ror	r26
+    7650:	97 95       	ror	r25
+    7652:	87 95       	ror	r24
+    7654:	0e d4       	rcall	.+2076   	; 0x7e72 <_binary_bootloader_orig_bin_start+0x7e72>
+    7656:	80 91 22 02 	lds	r24, 0x0222	; 0x800222 <_binary_bootloader_orig_bin_end+0x7f8222>
+    765a:	90 91 23 02 	lds	r25, 0x0223	; 0x800223 <_binary_bootloader_orig_bin_end+0x7f8223>
+    765e:	a0 91 24 02 	lds	r26, 0x0224	; 0x800224 <_binary_bootloader_orig_bin_end+0x7f8224>
+    7662:	b0 91 25 02 	lds	r27, 0x0225	; 0x800225 <_binary_bootloader_orig_bin_end+0x7f8225>
+    7666:	02 96       	adiw	r24, 0x02	; 2
+    7668:	a1 1d       	adc	r26, r1
+    766a:	b1 1d       	adc	r27, r1
+    766c:	80 93 22 02 	sts	0x0222, r24	; 0x800222 <_binary_bootloader_orig_bin_end+0x7f8222>
+    7670:	90 93 23 02 	sts	0x0223, r25	; 0x800223 <_binary_bootloader_orig_bin_end+0x7f8223>
+    7674:	a0 93 24 02 	sts	0x0224, r26	; 0x800224 <_binary_bootloader_orig_bin_end+0x7f8224>
+    7678:	b0 93 25 02 	sts	0x0225, r27	; 0x800225 <_binary_bootloader_orig_bin_end+0x7f8225>
+    767c:	3e ce       	rjmp	.-900    	; 0x72fa <_binary_bootloader_orig_bin_start+0x72fa>
+    767e:	84 36       	cpi	r24, 0x64	; 100
+    7680:	f1 f4       	brne	.+60     	; 0x76be <_binary_bootloader_orig_bin_start+0x76be>
+    7682:	c0 90 22 02 	lds	r12, 0x0222	; 0x800222 <_binary_bootloader_orig_bin_end+0x7f8222>
+    7686:	d0 90 23 02 	lds	r13, 0x0223	; 0x800223 <_binary_bootloader_orig_bin_end+0x7f8223>
+    768a:	e0 90 24 02 	lds	r14, 0x0224	; 0x800224 <_binary_bootloader_orig_bin_end+0x7f8224>
+    768e:	f0 90 25 02 	lds	r15, 0x0225	; 0x800225 <_binary_bootloader_orig_bin_end+0x7f8225>
+    7692:	d7 01       	movw	r26, r14
+    7694:	c6 01       	movw	r24, r12
+    7696:	b6 95       	lsr	r27
+    7698:	a7 95       	ror	r26
+    769a:	97 95       	ror	r25
+    769c:	87 95       	ror	r24
+    769e:	e1 d3       	rcall	.+1986   	; 0x7e62 <_binary_bootloader_orig_bin_start+0x7e62>
+    76a0:	4a dd       	rcall	.-1388   	; 0x7136 <_binary_bootloader_orig_bin_start+0x7136>
+    76a2:	f2 e0       	ldi	r31, 0x02	; 2
+    76a4:	cf 0e       	add	r12, r31
+    76a6:	d1 1c       	adc	r13, r1
+    76a8:	e1 1c       	adc	r14, r1
+    76aa:	f1 1c       	adc	r15, r1
+    76ac:	c0 92 22 02 	sts	0x0222, r12	; 0x800222 <_binary_bootloader_orig_bin_end+0x7f8222>
+    76b0:	d0 92 23 02 	sts	0x0223, r13	; 0x800223 <_binary_bootloader_orig_bin_end+0x7f8223>
+    76b4:	e0 92 24 02 	sts	0x0224, r14	; 0x800224 <_binary_bootloader_orig_bin_end+0x7f8224>
+    76b8:	f0 92 25 02 	sts	0x0225, r15	; 0x800225 <_binary_bootloader_orig_bin_end+0x7f8225>
+    76bc:	03 c0       	rjmp	.+6      	; 0x76c4 <_binary_bootloader_orig_bin_start+0x76c4>
+    76be:	8b 31       	cpi	r24, 0x1B	; 27
+    76c0:	09 f0       	breq	.+2      	; 0x76c4 <_binary_bootloader_orig_bin_start+0x76c4>
+    76c2:	b0 ce       	rjmp	.-672    	; 0x7424 <_binary_bootloader_orig_bin_start+0x7424>
+    76c4:	83 e0       	ldi	r24, 0x03	; 3
+    76c6:	80 93 e9 00 	sts	0x00E9, r24	; 0x8000e9 <_binary_bootloader_orig_bin_end+0x7f80e9>
+    76ca:	90 91 e8 00 	lds	r25, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    76ce:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    76d2:	8e 77       	andi	r24, 0x7E	; 126
+    76d4:	80 93 e8 00 	sts	0x00E8, r24	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    76d8:	95 fd       	sbrc	r25, 5
+    76da:	11 c0       	rjmp	.+34     	; 0x76fe <_binary_bootloader_orig_bin_start+0x76fe>
+    76dc:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    76e0:	80 fd       	sbrc	r24, 0
+    76e2:	04 c0       	rjmp	.+8      	; 0x76ec <_binary_bootloader_orig_bin_start+0x76ec>
+    76e4:	8e b3       	in	r24, 0x1e	; 30
+    76e6:	81 11       	cpse	r24, r1
+    76e8:	f9 cf       	rjmp	.-14     	; 0x76dc <_binary_bootloader_orig_bin_start+0x76dc>
+    76ea:	15 c0       	rjmp	.+42     	; 0x7716 <_binary_bootloader_orig_bin_start+0x7716>
+    76ec:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    76f0:	8e 77       	andi	r24, 0x7E	; 126
+    76f2:	80 93 e8 00 	sts	0x00E8, r24	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    76f6:	03 c0       	rjmp	.+6      	; 0x76fe <_binary_bootloader_orig_bin_start+0x76fe>
+    76f8:	8e b3       	in	r24, 0x1e	; 30
+    76fa:	88 23       	and	r24, r24
+    76fc:	61 f0       	breq	.+24     	; 0x7716 <_binary_bootloader_orig_bin_start+0x7716>
+    76fe:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7702:	80 ff       	sbrs	r24, 0
+    7704:	f9 cf       	rjmp	.-14     	; 0x76f8 <_binary_bootloader_orig_bin_start+0x76f8>
+    7706:	84 e0       	ldi	r24, 0x04	; 4
+    7708:	80 93 e9 00 	sts	0x00E9, r24	; 0x8000e9 <_binary_bootloader_orig_bin_end+0x7f80e9>
+    770c:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7710:	8b 77       	andi	r24, 0x7B	; 123
+    7712:	80 93 e8 00 	sts	0x00E8, r24	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7716:	df 91       	pop	r29
+    7718:	cf 91       	pop	r28
+    771a:	1f 91       	pop	r17
+    771c:	0f 91       	pop	r16
+    771e:	ff 90       	pop	r15
+    7720:	ef 90       	pop	r14
+    7722:	df 90       	pop	r13
+    7724:	cf 90       	pop	r12
+    7726:	bf 90       	pop	r11
+    7728:	af 90       	pop	r10
+    772a:	7f 90       	pop	r7
+    772c:	6f 90       	pop	r6
+    772e:	5f 90       	pop	r5
+    7730:	4f 90       	pop	r4
+    7732:	08 95       	ret
+    7734:	10 92 ff 0a 	sts	0x0AFF, r1	; 0x800aff <_binary_bootloader_orig_bin_end+0x7f8aff>
+    7738:	10 92 fe 0a 	sts	0x0AFE, r1	; 0x800afe <_binary_bootloader_orig_bin_end+0x7f8afe>
+    773c:	84 b7       	in	r24, 0x34	; 52
+    773e:	14 be       	out	0x34, r1	; 52
+    7740:	0f b6       	in	r0, 0x3f	; 63
+    7742:	f8 94       	cli
+    7744:	a8 95       	wdr
+    7746:	90 91 60 00 	lds	r25, 0x0060	; 0x800060 <_binary_bootloader_orig_bin_end+0x7f8060>
+    774a:	98 61       	ori	r25, 0x18	; 24
+    774c:	90 93 60 00 	sts	0x0060, r25	; 0x800060 <_binary_bootloader_orig_bin_end+0x7f8060>
+    7750:	10 92 60 00 	sts	0x0060, r1	; 0x800060 <_binary_bootloader_orig_bin_end+0x7f8060>
+    7754:	0f be       	out	0x3f, r0	; 63
+    7756:	81 fd       	sbrc	r24, 1
+    7758:	1d c0       	rjmp	.+58     	; 0x7794 <_binary_bootloader_orig_bin_start+0x7794>
+    775a:	80 ff       	sbrs	r24, 0
+    775c:	07 c0       	rjmp	.+14     	; 0x776c <_binary_bootloader_orig_bin_start+0x776c>
+    775e:	e0 e0       	ldi	r30, 0x00	; 0
+    7760:	f0 e0       	ldi	r31, 0x00	; 0
+    7762:	25 91       	lpm	r18, Z+
+    7764:	34 91       	lpm	r19, Z
+    7766:	2f 3f       	cpi	r18, 0xFF	; 255
+    7768:	3f 4f       	sbci	r19, 0xFF	; 255
+    776a:	99 f4       	brne	.+38     	; 0x7792 <_binary_bootloader_orig_bin_start+0x7792>
+    776c:	83 ff       	sbrs	r24, 3
+    776e:	12 c0       	rjmp	.+36     	; 0x7794 <_binary_bootloader_orig_bin_start+0x7794>
+    7770:	20 91 5c 02 	lds	r18, 0x025C	; 0x80025c <_binary_bootloader_orig_bin_end+0x7f825c>
+    7774:	30 91 5d 02 	lds	r19, 0x025D	; 0x80025d <_binary_bootloader_orig_bin_end+0x7f825d>
+    7778:	80 91 00 01 	lds	r24, 0x0100	; 0x800100 <_binary_bootloader_orig_bin_end+0x7f8100>
+    777c:	90 91 01 01 	lds	r25, 0x0101	; 0x800101 <_binary_bootloader_orig_bin_end+0x7f8101>
+    7780:	28 17       	cp	r18, r24
+    7782:	39 07       	cpc	r19, r25
+    7784:	39 f0       	breq	.+14     	; 0x7794 <_binary_bootloader_orig_bin_start+0x7794>
+    7786:	e0 e0       	ldi	r30, 0x00	; 0
+    7788:	f0 e0       	ldi	r31, 0x00	; 0
+    778a:	85 91       	lpm	r24, Z+
+    778c:	94 91       	lpm	r25, Z
+    778e:	01 96       	adiw	r24, 0x01	; 1
+    7790:	09 f0       	breq	.+2      	; 0x7794 <_binary_bootloader_orig_bin_start+0x7794>
+    7792:	e8 dc       	rcall	.-1584   	; 0x7164 <_binary_bootloader_orig_bin_start+0x7164>
+    7794:	04 dd       	rcall	.-1528   	; 0x719e <_binary_bootloader_orig_bin_start+0x719e>
+    7796:	78 94       	sei
+    7798:	10 92 21 02 	sts	0x0221, r1	; 0x800221 <_binary_bootloader_orig_bin_end+0x7f8221>
+    779c:	10 92 20 02 	sts	0x0220, r1	; 0x800220 <_binary_bootloader_orig_bin_end+0x7f8220>
+    77a0:	80 dd       	rcall	.-1280   	; 0x72a2 <_binary_bootloader_orig_bin_start+0x72a2>
+    77a2:	48 d3       	rcall	.+1680   	; 0x7e34 <_binary_bootloader_orig_bin_start+0x7e34>
+    77a4:	80 91 20 02 	lds	r24, 0x0220	; 0x800220 <_binary_bootloader_orig_bin_end+0x7f8220>
+    77a8:	90 91 21 02 	lds	r25, 0x0221	; 0x800221 <_binary_bootloader_orig_bin_end+0x7f8221>
+    77ac:	81 34       	cpi	r24, 0x41	; 65
+    77ae:	9f 41       	sbci	r25, 0x1F	; 31
+    77b0:	10 f4       	brcc	.+4      	; 0x77b6 <_binary_bootloader_orig_bin_start+0x77b6>
+    77b2:	df dc       	rcall	.-1602   	; 0x7172 <_binary_bootloader_orig_bin_start+0x7172>
+    77b4:	f5 cf       	rjmp	.-22     	; 0x77a0 <_binary_bootloader_orig_bin_start+0x77a0>
+    77b6:	80 91 e0 00 	lds	r24, 0x00E0	; 0x8000e0 <_binary_bootloader_orig_bin_end+0x7f80e0>
+    77ba:	81 60       	ori	r24, 0x01	; 1
+    77bc:	80 93 e0 00 	sts	0x00E0, r24	; 0x8000e0 <_binary_bootloader_orig_bin_end+0x7f80e0>
+    77c0:	9b e0       	ldi	r25, 0x0B	; 11
+    77c2:	88 e1       	ldi	r24, 0x18	; 24
+    77c4:	0f b6       	in	r0, 0x3f	; 63
+    77c6:	f8 94       	cli
+    77c8:	a8 95       	wdr
+    77ca:	80 93 60 00 	sts	0x0060, r24	; 0x800060 <_binary_bootloader_orig_bin_end+0x7f8060>
+    77ce:	0f be       	out	0x3f, r0	; 63
+    77d0:	90 93 60 00 	sts	0x0060, r25	; 0x800060 <_binary_bootloader_orig_bin_end+0x7f8060>
+    77d4:	ff cf       	rjmp	.-2      	; 0x77d4 <_binary_bootloader_orig_bin_start+0x77d4>
+    77d6:	cf 93       	push	r28
+    77d8:	29 2f       	mov	r18, r25
+    77da:	30 e0       	ldi	r19, 0x00	; 0
+    77dc:	22 30       	cpi	r18, 0x02	; 2
+    77de:	31 05       	cpc	r19, r1
+    77e0:	61 f0       	breq	.+24     	; 0x77fa <_binary_bootloader_orig_bin_start+0x77fa>
+    77e2:	23 30       	cpi	r18, 0x03	; 3
+    77e4:	31 05       	cpc	r19, r1
+    77e6:	71 f0       	breq	.+28     	; 0x7804 <_binary_bootloader_orig_bin_start+0x7804>
+    77e8:	21 30       	cpi	r18, 0x01	; 1
+    77ea:	31 05       	cpc	r19, r1
+    77ec:	09 f0       	breq	.+2      	; 0x77f0 <_binary_bootloader_orig_bin_start+0x77f0>
+    77ee:	51 c0       	rjmp	.+162    	; 0x7892 <_binary_bootloader_orig_bin_start+0x7892>
+    77f0:	82 e1       	ldi	r24, 0x12	; 18
+    77f2:	90 e0       	ldi	r25, 0x00	; 0
+    77f4:	25 e0       	ldi	r18, 0x05	; 5
+    77f6:	32 e0       	ldi	r19, 0x02	; 2
+    77f8:	50 c0       	rjmp	.+160    	; 0x789a <_binary_bootloader_orig_bin_start+0x789a>
+    77fa:	8e e3       	ldi	r24, 0x3E	; 62
+    77fc:	90 e0       	ldi	r25, 0x00	; 0
+    77fe:	27 ec       	ldi	r18, 0xC7	; 199
+    7800:	31 e0       	ldi	r19, 0x01	; 1
+    7802:	4b c0       	rjmp	.+150    	; 0x789a <_binary_bootloader_orig_bin_start+0x789a>
+    7804:	88 23       	and	r24, r24
+    7806:	09 f4       	brne	.+2      	; 0x780a <_binary_bootloader_orig_bin_start+0x780a>
+    7808:	35 c0       	rjmp	.+106    	; 0x7874 <_binary_bootloader_orig_bin_start+0x7874>
+    780a:	81 30       	cpi	r24, 0x01	; 1
+    780c:	09 f4       	brne	.+2      	; 0x7810 <_binary_bootloader_orig_bin_start+0x7810>
+    780e:	37 c0       	rjmp	.+110    	; 0x787e <_binary_bootloader_orig_bin_start+0x787e>
+    7810:	82 30       	cpi	r24, 0x02	; 2
+    7812:	09 f4       	brne	.+2      	; 0x7816 <_binary_bootloader_orig_bin_start+0x7816>
+    7814:	39 c0       	rjmp	.+114    	; 0x7888 <_binary_bootloader_orig_bin_start+0x7888>
+    7816:	83 30       	cpi	r24, 0x03	; 3
+    7818:	09 f0       	breq	.+2      	; 0x781c <_binary_bootloader_orig_bin_start+0x781c>
+    781a:	3b c0       	rjmp	.+118    	; 0x7892 <_binary_bootloader_orig_bin_start+0x7892>
+    781c:	9a e2       	ldi	r25, 0x2A	; 42
+    781e:	90 93 28 02 	sts	0x0228, r25	; 0x800228 <_binary_bootloader_orig_bin_end+0x7f8228>
+    7822:	80 93 29 02 	sts	0x0229, r24	; 0x800229 <_binary_bootloader_orig_bin_end+0x7f8229>
+    7826:	aa e2       	ldi	r26, 0x2A	; 42
+    7828:	b2 e0       	ldi	r27, 0x02	; 2
+    782a:	90 e0       	ldi	r25, 0x00	; 0
+    782c:	c1 e2       	ldi	r28, 0x21	; 33
+    782e:	2f b7       	in	r18, 0x3f	; 63
+    7830:	f8 94       	cli
+    7832:	e9 2f       	mov	r30, r25
+    7834:	e6 95       	lsr	r30
+    7836:	f0 e0       	ldi	r31, 0x00	; 0
+    7838:	3e 96       	adiw	r30, 0x0e	; 14
+    783a:	8c 2f       	mov	r24, r28
+    783c:	87 bf       	out	0x37, r24	; 55
+    783e:	84 91       	lpm	r24, Z
+    7840:	2f bf       	out	0x3f, r18	; 63
+    7842:	90 ff       	sbrs	r25, 0
+    7844:	82 95       	swap	r24
+    7846:	8f 70       	andi	r24, 0x0F	; 15
+    7848:	68 2f       	mov	r22, r24
+    784a:	70 e0       	ldi	r23, 0x00	; 0
+    784c:	8a 30       	cpi	r24, 0x0A	; 10
+    784e:	18 f0       	brcs	.+6      	; 0x7856 <_binary_bootloader_orig_bin_start+0x7856>
+    7850:	27 e3       	ldi	r18, 0x37	; 55
+    7852:	30 e0       	ldi	r19, 0x00	; 0
+    7854:	02 c0       	rjmp	.+4      	; 0x785a <_binary_bootloader_orig_bin_start+0x785a>
+    7856:	20 e3       	ldi	r18, 0x30	; 48
+    7858:	30 e0       	ldi	r19, 0x00	; 0
+    785a:	26 0f       	add	r18, r22
+    785c:	37 1f       	adc	r19, r23
+    785e:	2d 93       	st	X+, r18
+    7860:	3d 93       	st	X+, r19
+    7862:	9f 5f       	subi	r25, 0xFF	; 255
+    7864:	94 31       	cpi	r25, 0x14	; 20
+    7866:	19 f7       	brne	.-58     	; 0x782e <_binary_bootloader_orig_bin_start+0x782e>
+    7868:	80 91 28 02 	lds	r24, 0x0228	; 0x800228 <_binary_bootloader_orig_bin_end+0x7f8228>
+    786c:	90 e0       	ldi	r25, 0x00	; 0
+    786e:	28 e2       	ldi	r18, 0x28	; 40
+    7870:	32 e0       	ldi	r19, 0x02	; 2
+    7872:	13 c0       	rjmp	.+38     	; 0x789a <_binary_bootloader_orig_bin_start+0x789a>
+    7874:	84 e0       	ldi	r24, 0x04	; 4
+    7876:	90 e0       	ldi	r25, 0x00	; 0
+    7878:	23 ec       	ldi	r18, 0xC3	; 195
+    787a:	31 e0       	ldi	r19, 0x01	; 1
+    787c:	0e c0       	rjmp	.+28     	; 0x789a <_binary_bootloader_orig_bin_start+0x789a>
+    787e:	8c e7       	ldi	r24, 0x7C	; 124
+    7880:	90 e0       	ldi	r25, 0x00	; 0
+    7882:	25 e4       	ldi	r18, 0x45	; 69
+    7884:	31 e0       	ldi	r19, 0x01	; 1
+    7886:	09 c0       	rjmp	.+18     	; 0x789a <_binary_bootloader_orig_bin_start+0x789a>
+    7888:	8a e3       	ldi	r24, 0x3A	; 58
+    788a:	90 e0       	ldi	r25, 0x00	; 0
+    788c:	29 e0       	ldi	r18, 0x09	; 9
+    788e:	31 e0       	ldi	r19, 0x01	; 1
+    7890:	04 c0       	rjmp	.+8      	; 0x789a <_binary_bootloader_orig_bin_start+0x789a>
+    7892:	80 e0       	ldi	r24, 0x00	; 0
+    7894:	90 e0       	ldi	r25, 0x00	; 0
+    7896:	20 e0       	ldi	r18, 0x00	; 0
+    7898:	30 e0       	ldi	r19, 0x00	; 0
+    789a:	fa 01       	movw	r30, r20
+    789c:	31 83       	std	Z+1, r19	; 0x01
+    789e:	20 83       	st	Z, r18
+    78a0:	cf 91       	pop	r28
+    78a2:	08 95       	ret
+    78a4:	80 93 e9 00 	sts	0x00E9, r24	; 0x8000e9 <_binary_bootloader_orig_bin_end+0x7f80e9>
+    78a8:	eb ee       	ldi	r30, 0xEB	; 235
+    78aa:	f0 e0       	ldi	r31, 0x00	; 0
+    78ac:	80 81       	ld	r24, Z
+    78ae:	81 60       	ori	r24, 0x01	; 1
+    78b0:	80 83       	st	Z, r24
+    78b2:	ed ee       	ldi	r30, 0xED	; 237
+    78b4:	f0 e0       	ldi	r31, 0x00	; 0
+    78b6:	10 82       	st	Z, r1
+    78b8:	60 93 ec 00 	sts	0x00EC, r22	; 0x8000ec <_binary_bootloader_orig_bin_end+0x7f80ec>
+    78bc:	40 83       	st	Z, r20
+    78be:	80 91 ee 00 	lds	r24, 0x00EE	; 0x8000ee <_binary_bootloader_orig_bin_end+0x7f80ee>
+    78c2:	88 1f       	adc	r24, r24
+    78c4:	88 27       	eor	r24, r24
+    78c6:	88 1f       	adc	r24, r24
+    78c8:	08 95       	ret
+    78ca:	80 91 54 02 	lds	r24, 0x0254	; 0x800254 <_binary_bootloader_orig_bin_end+0x7f8254>
+    78ce:	87 ff       	sbrs	r24, 7
+    78d0:	0f c0       	rjmp	.+30     	; 0x78f0 <_binary_bootloader_orig_bin_start+0x78f0>
+    78d2:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    78d6:	82 fd       	sbrc	r24, 2
+    78d8:	04 c0       	rjmp	.+8      	; 0x78e2 <_binary_bootloader_orig_bin_start+0x78e2>
+    78da:	8e b3       	in	r24, 0x1e	; 30
+    78dc:	81 11       	cpse	r24, r1
+    78de:	f9 cf       	rjmp	.-14     	; 0x78d2 <_binary_bootloader_orig_bin_start+0x78d2>
+    78e0:	10 c0       	rjmp	.+32     	; 0x7902 <_binary_bootloader_orig_bin_start+0x7902>
+    78e2:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    78e6:	8b 77       	andi	r24, 0x7B	; 123
+    78e8:	0a c0       	rjmp	.+20     	; 0x78fe <_binary_bootloader_orig_bin_start+0x78fe>
+    78ea:	8e b3       	in	r24, 0x1e	; 30
+    78ec:	88 23       	and	r24, r24
+    78ee:	49 f0       	breq	.+18     	; 0x7902 <_binary_bootloader_orig_bin_start+0x7902>
+    78f0:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    78f4:	80 ff       	sbrs	r24, 0
+    78f6:	f9 cf       	rjmp	.-14     	; 0x78ea <_binary_bootloader_orig_bin_start+0x78ea>
+    78f8:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    78fc:	8e 77       	andi	r24, 0x7E	; 126
+    78fe:	80 93 e8 00 	sts	0x00E8, r24	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7902:	08 95       	ret
+    7904:	0f 93       	push	r16
+    7906:	1f 93       	push	r17
+    7908:	cf 93       	push	r28
+    790a:	df 93       	push	r29
+    790c:	41 d0       	rcall	.+130    	; 0x7990 <_binary_bootloader_orig_bin_start+0x7990>
+    790e:	48 d0       	rcall	.+144    	; 0x79a0 <_binary_bootloader_orig_bin_start+0x79a0>
+    7910:	c8 ed       	ldi	r28, 0xD8	; 216
+    7912:	d0 e0       	ldi	r29, 0x00	; 0
+    7914:	88 81       	ld	r24, Y
+    7916:	8f 77       	andi	r24, 0x7F	; 127
+    7918:	88 83       	st	Y, r24
+    791a:	88 81       	ld	r24, Y
+    791c:	80 68       	ori	r24, 0x80	; 128
+    791e:	88 83       	st	Y, r24
+    7920:	88 81       	ld	r24, Y
+    7922:	8f 7d       	andi	r24, 0xDF	; 223
+    7924:	88 83       	st	Y, r24
+    7926:	19 bc       	out	0x29, r1	; 41
+    7928:	1e ba       	out	0x1e, r1	; 30
+    792a:	10 92 52 02 	sts	0x0252, r1	; 0x800252 <_binary_bootloader_orig_bin_end+0x7f8252>
+    792e:	00 ee       	ldi	r16, 0xE0	; 224
+    7930:	10 e0       	ldi	r17, 0x00	; 0
+    7932:	f8 01       	movw	r30, r16
+    7934:	80 81       	ld	r24, Z
+    7936:	8b 7f       	andi	r24, 0xFB	; 251
+    7938:	80 83       	st	Z, r24
+    793a:	88 81       	ld	r24, Y
+    793c:	81 60       	ori	r24, 0x01	; 1
+    793e:	88 83       	st	Y, r24
+    7940:	42 e0       	ldi	r20, 0x02	; 2
+    7942:	60 e0       	ldi	r22, 0x00	; 0
+    7944:	80 e0       	ldi	r24, 0x00	; 0
+    7946:	ae df       	rcall	.-164    	; 0x78a4 <_binary_bootloader_orig_bin_start+0x78a4>
+    7948:	e1 ee       	ldi	r30, 0xE1	; 225
+    794a:	f0 e0       	ldi	r31, 0x00	; 0
+    794c:	80 81       	ld	r24, Z
+    794e:	8e 7f       	andi	r24, 0xFE	; 254
+    7950:	80 83       	st	Z, r24
+    7952:	e2 ee       	ldi	r30, 0xE2	; 226
+    7954:	f0 e0       	ldi	r31, 0x00	; 0
+    7956:	80 81       	ld	r24, Z
+    7958:	81 60       	ori	r24, 0x01	; 1
+    795a:	80 83       	st	Z, r24
+    795c:	80 81       	ld	r24, Z
+    795e:	88 60       	ori	r24, 0x08	; 8
+    7960:	80 83       	st	Z, r24
+    7962:	f8 01       	movw	r30, r16
+    7964:	80 81       	ld	r24, Z
+    7966:	8e 7f       	andi	r24, 0xFE	; 254
+    7968:	80 83       	st	Z, r24
+    796a:	88 81       	ld	r24, Y
+    796c:	80 61       	ori	r24, 0x10	; 16
+    796e:	88 83       	st	Y, r24
+    7970:	df 91       	pop	r29
+    7972:	cf 91       	pop	r28
+    7974:	1f 91       	pop	r17
+    7976:	0f 91       	pop	r16
+    7978:	08 95       	ret
+    797a:	e7 ed       	ldi	r30, 0xD7	; 215
+    797c:	f0 e0       	ldi	r31, 0x00	; 0
+    797e:	80 81       	ld	r24, Z
+    7980:	81 60       	ori	r24, 0x01	; 1
+    7982:	80 83       	st	Z, r24
+    7984:	8a e4       	ldi	r24, 0x4A	; 74
+    7986:	82 bf       	out	0x32, r24	; 50
+    7988:	81 e0       	ldi	r24, 0x01	; 1
+    798a:	80 93 53 02 	sts	0x0253, r24	; 0x800253 <_binary_bootloader_orig_bin_end+0x7f8253>
+    798e:	ba cf       	rjmp	.-140    	; 0x7904 <_binary_bootloader_orig_bin_start+0x7904>
+    7990:	e8 ed       	ldi	r30, 0xD8	; 216
+    7992:	f0 e0       	ldi	r31, 0x00	; 0
+    7994:	80 81       	ld	r24, Z
+    7996:	8e 7f       	andi	r24, 0xFE	; 254
+    7998:	80 83       	st	Z, r24
+    799a:	10 92 e2 00 	sts	0x00E2, r1	; 0x8000e2 <_binary_bootloader_orig_bin_end+0x7f80e2>
+    799e:	08 95       	ret
+    79a0:	10 92 da 00 	sts	0x00DA, r1	; 0x8000da <_binary_bootloader_orig_bin_end+0x7f80da>
+    79a4:	10 92 e1 00 	sts	0x00E1, r1	; 0x8000e1 <_binary_bootloader_orig_bin_end+0x7f80e1>
+    79a8:	08 95       	ret
+    79aa:	1f 92       	push	r1
+    79ac:	0f 92       	push	r0
+    79ae:	0f b6       	in	r0, 0x3f	; 63
+    79b0:	0f 92       	push	r0
+    79b2:	11 24       	eor	r1, r1
+    79b4:	2f 93       	push	r18
+    79b6:	3f 93       	push	r19
+    79b8:	4f 93       	push	r20
+    79ba:	5f 93       	push	r21
+    79bc:	6f 93       	push	r22
+    79be:	7f 93       	push	r23
+    79c0:	8f 93       	push	r24
+    79c2:	9f 93       	push	r25
+    79c4:	af 93       	push	r26
+    79c6:	bf 93       	push	r27
+    79c8:	ef 93       	push	r30
+    79ca:	ff 93       	push	r31
+    79cc:	80 91 da 00 	lds	r24, 0x00DA	; 0x8000da <_binary_bootloader_orig_bin_end+0x7f80da>
+    79d0:	80 ff       	sbrs	r24, 0
+    79d2:	1b c0       	rjmp	.+54     	; 0x7a0a <_binary_bootloader_orig_bin_start+0x7a0a>
+    79d4:	80 91 d8 00 	lds	r24, 0x00D8	; 0x8000d8 <_binary_bootloader_orig_bin_end+0x7f80d8>
+    79d8:	80 ff       	sbrs	r24, 0
+    79da:	17 c0       	rjmp	.+46     	; 0x7a0a <_binary_bootloader_orig_bin_start+0x7a0a>
+    79dc:	80 91 da 00 	lds	r24, 0x00DA	; 0x8000da <_binary_bootloader_orig_bin_end+0x7f80da>
+    79e0:	8e 7f       	andi	r24, 0xFE	; 254
+    79e2:	80 93 da 00 	sts	0x00DA, r24	; 0x8000da <_binary_bootloader_orig_bin_end+0x7f80da>
+    79e6:	80 91 d9 00 	lds	r24, 0x00D9	; 0x8000d9 <_binary_bootloader_orig_bin_end+0x7f80d9>
+    79ea:	80 ff       	sbrs	r24, 0
+    79ec:	0b c0       	rjmp	.+22     	; 0x7a04 <_binary_bootloader_orig_bin_start+0x7a04>
+    79ee:	80 e1       	ldi	r24, 0x10	; 16
+    79f0:	89 bd       	out	0x29, r24	; 41
+    79f2:	82 e1       	ldi	r24, 0x12	; 18
+    79f4:	89 bd       	out	0x29, r24	; 41
+    79f6:	09 b4       	in	r0, 0x29	; 41
+    79f8:	00 fe       	sbrs	r0, 0
+    79fa:	fd cf       	rjmp	.-6      	; 0x79f6 <_binary_bootloader_orig_bin_start+0x79f6>
+    79fc:	81 e0       	ldi	r24, 0x01	; 1
+    79fe:	8e bb       	out	0x1e, r24	; 30
+    7a00:	18 d2       	rcall	.+1072   	; 0x7e32 <_binary_bootloader_orig_bin_start+0x7e32>
+    7a02:	03 c0       	rjmp	.+6      	; 0x7a0a <_binary_bootloader_orig_bin_start+0x7a0a>
+    7a04:	19 bc       	out	0x29, r1	; 41
+    7a06:	1e ba       	out	0x1e, r1	; 30
+    7a08:	14 d2       	rcall	.+1064   	; 0x7e32 <_binary_bootloader_orig_bin_start+0x7e32>
+    7a0a:	80 91 e1 00 	lds	r24, 0x00E1	; 0x8000e1 <_binary_bootloader_orig_bin_end+0x7f80e1>
+    7a0e:	80 ff       	sbrs	r24, 0
+    7a10:	17 c0       	rjmp	.+46     	; 0x7a40 <_binary_bootloader_orig_bin_start+0x7a40>
+    7a12:	80 91 e2 00 	lds	r24, 0x00E2	; 0x8000e2 <_binary_bootloader_orig_bin_end+0x7f80e2>
+    7a16:	80 ff       	sbrs	r24, 0
+    7a18:	13 c0       	rjmp	.+38     	; 0x7a40 <_binary_bootloader_orig_bin_start+0x7a40>
+    7a1a:	80 91 e2 00 	lds	r24, 0x00E2	; 0x8000e2 <_binary_bootloader_orig_bin_end+0x7f80e2>
+    7a1e:	8e 7f       	andi	r24, 0xFE	; 254
+    7a20:	80 93 e2 00 	sts	0x00E2, r24	; 0x8000e2 <_binary_bootloader_orig_bin_end+0x7f80e2>
+    7a24:	80 91 e2 00 	lds	r24, 0x00E2	; 0x8000e2 <_binary_bootloader_orig_bin_end+0x7f80e2>
+    7a28:	80 61       	ori	r24, 0x10	; 16
+    7a2a:	80 93 e2 00 	sts	0x00E2, r24	; 0x8000e2 <_binary_bootloader_orig_bin_end+0x7f80e2>
+    7a2e:	80 91 d8 00 	lds	r24, 0x00D8	; 0x8000d8 <_binary_bootloader_orig_bin_end+0x7f80d8>
+    7a32:	80 62       	ori	r24, 0x20	; 32
+    7a34:	80 93 d8 00 	sts	0x00D8, r24	; 0x8000d8 <_binary_bootloader_orig_bin_end+0x7f80d8>
+    7a38:	19 bc       	out	0x29, r1	; 41
+    7a3a:	85 e0       	ldi	r24, 0x05	; 5
+    7a3c:	8e bb       	out	0x1e, r24	; 30
+    7a3e:	f9 d1       	rcall	.+1010   	; 0x7e32 <_binary_bootloader_orig_bin_start+0x7e32>
+    7a40:	80 91 e1 00 	lds	r24, 0x00E1	; 0x8000e1 <_binary_bootloader_orig_bin_end+0x7f80e1>
+    7a44:	84 ff       	sbrs	r24, 4
+    7a46:	2c c0       	rjmp	.+88     	; 0x7aa0 <_binary_bootloader_orig_bin_start+0x7aa0>
+    7a48:	80 91 e2 00 	lds	r24, 0x00E2	; 0x8000e2 <_binary_bootloader_orig_bin_end+0x7f80e2>
+    7a4c:	84 ff       	sbrs	r24, 4
+    7a4e:	28 c0       	rjmp	.+80     	; 0x7aa0 <_binary_bootloader_orig_bin_start+0x7aa0>
+    7a50:	80 e1       	ldi	r24, 0x10	; 16
+    7a52:	89 bd       	out	0x29, r24	; 41
+    7a54:	82 e1       	ldi	r24, 0x12	; 18
+    7a56:	89 bd       	out	0x29, r24	; 41
+    7a58:	09 b4       	in	r0, 0x29	; 41
+    7a5a:	00 fe       	sbrs	r0, 0
+    7a5c:	fd cf       	rjmp	.-6      	; 0x7a58 <_binary_bootloader_orig_bin_start+0x7a58>
+    7a5e:	80 91 d8 00 	lds	r24, 0x00D8	; 0x8000d8 <_binary_bootloader_orig_bin_end+0x7f80d8>
+    7a62:	8f 7d       	andi	r24, 0xDF	; 223
+    7a64:	80 93 d8 00 	sts	0x00D8, r24	; 0x8000d8 <_binary_bootloader_orig_bin_end+0x7f80d8>
+    7a68:	80 91 e1 00 	lds	r24, 0x00E1	; 0x8000e1 <_binary_bootloader_orig_bin_end+0x7f80e1>
+    7a6c:	8f 7e       	andi	r24, 0xEF	; 239
+    7a6e:	80 93 e1 00 	sts	0x00E1, r24	; 0x8000e1 <_binary_bootloader_orig_bin_end+0x7f80e1>
+    7a72:	80 91 e2 00 	lds	r24, 0x00E2	; 0x8000e2 <_binary_bootloader_orig_bin_end+0x7f80e2>
+    7a76:	8f 7e       	andi	r24, 0xEF	; 239
+    7a78:	80 93 e2 00 	sts	0x00E2, r24	; 0x8000e2 <_binary_bootloader_orig_bin_end+0x7f80e2>
+    7a7c:	80 91 e2 00 	lds	r24, 0x00E2	; 0x8000e2 <_binary_bootloader_orig_bin_end+0x7f80e2>
+    7a80:	81 60       	ori	r24, 0x01	; 1
+    7a82:	80 93 e2 00 	sts	0x00E2, r24	; 0x8000e2 <_binary_bootloader_orig_bin_end+0x7f80e2>
+    7a86:	80 91 52 02 	lds	r24, 0x0252	; 0x800252 <_binary_bootloader_orig_bin_end+0x7f8252>
+    7a8a:	81 11       	cpse	r24, r1
+    7a8c:	06 c0       	rjmp	.+12     	; 0x7a9a <_binary_bootloader_orig_bin_start+0x7a9a>
+    7a8e:	80 91 e3 00 	lds	r24, 0x00E3	; 0x8000e3 <_binary_bootloader_orig_bin_end+0x7f80e3>
+    7a92:	87 fd       	sbrc	r24, 7
+    7a94:	02 c0       	rjmp	.+4      	; 0x7a9a <_binary_bootloader_orig_bin_start+0x7a9a>
+    7a96:	81 e0       	ldi	r24, 0x01	; 1
+    7a98:	01 c0       	rjmp	.+2      	; 0x7a9c <_binary_bootloader_orig_bin_start+0x7a9c>
+    7a9a:	84 e0       	ldi	r24, 0x04	; 4
+    7a9c:	8e bb       	out	0x1e, r24	; 30
+    7a9e:	c9 d1       	rcall	.+914    	; 0x7e32 <_binary_bootloader_orig_bin_start+0x7e32>
+    7aa0:	80 91 e1 00 	lds	r24, 0x00E1	; 0x8000e1 <_binary_bootloader_orig_bin_end+0x7f80e1>
+    7aa4:	83 ff       	sbrs	r24, 3
+    7aa6:	21 c0       	rjmp	.+66     	; 0x7aea <_binary_bootloader_orig_bin_start+0x7aea>
+    7aa8:	80 91 e2 00 	lds	r24, 0x00E2	; 0x8000e2 <_binary_bootloader_orig_bin_end+0x7f80e2>
+    7aac:	83 ff       	sbrs	r24, 3
+    7aae:	1d c0       	rjmp	.+58     	; 0x7aea <_binary_bootloader_orig_bin_start+0x7aea>
+    7ab0:	80 91 e1 00 	lds	r24, 0x00E1	; 0x8000e1 <_binary_bootloader_orig_bin_end+0x7f80e1>
+    7ab4:	87 7f       	andi	r24, 0xF7	; 247
+    7ab6:	80 93 e1 00 	sts	0x00E1, r24	; 0x8000e1 <_binary_bootloader_orig_bin_end+0x7f80e1>
+    7aba:	82 e0       	ldi	r24, 0x02	; 2
+    7abc:	8e bb       	out	0x1e, r24	; 30
+    7abe:	10 92 52 02 	sts	0x0252, r1	; 0x800252 <_binary_bootloader_orig_bin_end+0x7f8252>
+    7ac2:	80 91 e1 00 	lds	r24, 0x00E1	; 0x8000e1 <_binary_bootloader_orig_bin_end+0x7f80e1>
+    7ac6:	8e 7f       	andi	r24, 0xFE	; 254
+    7ac8:	80 93 e1 00 	sts	0x00E1, r24	; 0x8000e1 <_binary_bootloader_orig_bin_end+0x7f80e1>
+    7acc:	80 91 e2 00 	lds	r24, 0x00E2	; 0x8000e2 <_binary_bootloader_orig_bin_end+0x7f80e2>
+    7ad0:	8e 7f       	andi	r24, 0xFE	; 254
+    7ad2:	80 93 e2 00 	sts	0x00E2, r24	; 0x8000e2 <_binary_bootloader_orig_bin_end+0x7f80e2>
+    7ad6:	80 91 e2 00 	lds	r24, 0x00E2	; 0x8000e2 <_binary_bootloader_orig_bin_end+0x7f80e2>
+    7ada:	80 61       	ori	r24, 0x10	; 16
+    7adc:	80 93 e2 00 	sts	0x00E2, r24	; 0x8000e2 <_binary_bootloader_orig_bin_end+0x7f80e2>
+    7ae0:	42 e0       	ldi	r20, 0x02	; 2
+    7ae2:	60 e0       	ldi	r22, 0x00	; 0
+    7ae4:	80 e0       	ldi	r24, 0x00	; 0
+    7ae6:	de de       	rcall	.-580    	; 0x78a4 <_binary_bootloader_orig_bin_start+0x78a4>
+    7ae8:	a4 d1       	rcall	.+840    	; 0x7e32 <_binary_bootloader_orig_bin_start+0x7e32>
+    7aea:	ff 91       	pop	r31
+    7aec:	ef 91       	pop	r30
+    7aee:	bf 91       	pop	r27
+    7af0:	af 91       	pop	r26
+    7af2:	9f 91       	pop	r25
+    7af4:	8f 91       	pop	r24
+    7af6:	7f 91       	pop	r23
+    7af8:	6f 91       	pop	r22
+    7afa:	5f 91       	pop	r21
+    7afc:	4f 91       	pop	r20
+    7afe:	3f 91       	pop	r19
+    7b00:	2f 91       	pop	r18
+    7b02:	0f 90       	pop	r0
+    7b04:	0f be       	out	0x3f, r0	; 63
+    7b06:	0f 90       	pop	r0
+    7b08:	1f 90       	pop	r1
+    7b0a:	18 95       	reti
+    7b0c:	20 91 5a 02 	lds	r18, 0x025A	; 0x80025a <_binary_bootloader_orig_bin_end+0x7f825a>
+    7b10:	30 91 5b 02 	lds	r19, 0x025B	; 0x80025b <_binary_bootloader_orig_bin_end+0x7f825b>
+    7b14:	26 17       	cp	r18, r22
+    7b16:	37 07       	cpc	r19, r23
+    7b18:	48 f0       	brcs	.+18     	; 0x7b2c <_binary_bootloader_orig_bin_start+0x7b2c>
+    7b1a:	61 15       	cp	r22, r1
+    7b1c:	71 05       	cpc	r23, r1
+    7b1e:	39 f4       	brne	.+14     	; 0x7b2e <_binary_bootloader_orig_bin_start+0x7b2e>
+    7b20:	20 91 e8 00 	lds	r18, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7b24:	2e 77       	andi	r18, 0x7E	; 126
+    7b26:	20 93 e8 00 	sts	0x00E8, r18	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7b2a:	01 c0       	rjmp	.+2      	; 0x7b2e <_binary_bootloader_orig_bin_start+0x7b2e>
+    7b2c:	b9 01       	movw	r22, r18
+    7b2e:	40 e0       	ldi	r20, 0x00	; 0
+    7b30:	61 15       	cp	r22, r1
+    7b32:	71 05       	cpc	r23, r1
+    7b34:	a1 f1       	breq	.+104    	; 0x7b9e <_binary_bootloader_orig_bin_start+0x7b9e>
+    7b36:	2e b3       	in	r18, 0x1e	; 30
+    7b38:	22 23       	and	r18, r18
+    7b3a:	09 f4       	brne	.+2      	; 0x7b3e <_binary_bootloader_orig_bin_start+0x7b3e>
+    7b3c:	40 c0       	rjmp	.+128    	; 0x7bbe <_binary_bootloader_orig_bin_start+0x7bbe>
+    7b3e:	25 30       	cpi	r18, 0x05	; 5
+    7b40:	09 f4       	brne	.+2      	; 0x7b44 <_binary_bootloader_orig_bin_start+0x7b44>
+    7b42:	3f c0       	rjmp	.+126    	; 0x7bc2 <_binary_bootloader_orig_bin_start+0x7bc2>
+    7b44:	20 91 e8 00 	lds	r18, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7b48:	23 fd       	sbrc	r18, 3
+    7b4a:	37 c0       	rjmp	.+110    	; 0x7bba <_binary_bootloader_orig_bin_start+0x7bba>
+    7b4c:	20 91 e8 00 	lds	r18, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7b50:	22 fd       	sbrc	r18, 2
+    7b52:	2d c0       	rjmp	.+90     	; 0x7bae <_binary_bootloader_orig_bin_start+0x7bae>
+    7b54:	20 91 e8 00 	lds	r18, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7b58:	20 ff       	sbrs	r18, 0
+    7b5a:	ea cf       	rjmp	.-44     	; 0x7b30 <_binary_bootloader_orig_bin_start+0x7b30>
+    7b5c:	40 91 f3 00 	lds	r20, 0x00F3	; 0x8000f3 <_binary_bootloader_orig_bin_end+0x7f80f3>
+    7b60:	20 91 f2 00 	lds	r18, 0x00F2	; 0x8000f2 <_binary_bootloader_orig_bin_end+0x7f80f2>
+    7b64:	30 e0       	ldi	r19, 0x00	; 0
+    7b66:	34 2b       	or	r19, r20
+    7b68:	fc 01       	movw	r30, r24
+    7b6a:	cf 01       	movw	r24, r30
+    7b6c:	61 15       	cp	r22, r1
+    7b6e:	71 05       	cpc	r23, r1
+    7b70:	59 f0       	breq	.+22     	; 0x7b88 <_binary_bootloader_orig_bin_start+0x7b88>
+    7b72:	28 30       	cpi	r18, 0x08	; 8
+    7b74:	31 05       	cpc	r19, r1
+    7b76:	40 f4       	brcc	.+16     	; 0x7b88 <_binary_bootloader_orig_bin_start+0x7b88>
+    7b78:	81 91       	ld	r24, Z+
+    7b7a:	80 93 f1 00 	sts	0x00F1, r24	; 0x8000f1 <_binary_bootloader_orig_bin_end+0x7f80f1>
+    7b7e:	61 50       	subi	r22, 0x01	; 1
+    7b80:	71 09       	sbc	r23, r1
+    7b82:	2f 5f       	subi	r18, 0xFF	; 255
+    7b84:	3f 4f       	sbci	r19, 0xFF	; 255
+    7b86:	f1 cf       	rjmp	.-30     	; 0x7b6a <_binary_bootloader_orig_bin_start+0x7b6a>
+    7b88:	41 e0       	ldi	r20, 0x01	; 1
+    7b8a:	28 30       	cpi	r18, 0x08	; 8
+    7b8c:	31 05       	cpc	r19, r1
+    7b8e:	09 f0       	breq	.+2      	; 0x7b92 <_binary_bootloader_orig_bin_start+0x7b92>
+    7b90:	40 e0       	ldi	r20, 0x00	; 0
+    7b92:	20 91 e8 00 	lds	r18, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7b96:	2e 77       	andi	r18, 0x7E	; 126
+    7b98:	20 93 e8 00 	sts	0x00E8, r18	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7b9c:	c9 cf       	rjmp	.-110    	; 0x7b30 <_binary_bootloader_orig_bin_start+0x7b30>
+    7b9e:	41 11       	cpse	r20, r1
+    7ba0:	ca cf       	rjmp	.-108    	; 0x7b36 <_binary_bootloader_orig_bin_start+0x7b36>
+    7ba2:	05 c0       	rjmp	.+10     	; 0x7bae <_binary_bootloader_orig_bin_start+0x7bae>
+    7ba4:	8e b3       	in	r24, 0x1e	; 30
+    7ba6:	88 23       	and	r24, r24
+    7ba8:	51 f0       	breq	.+20     	; 0x7bbe <_binary_bootloader_orig_bin_start+0x7bbe>
+    7baa:	85 30       	cpi	r24, 0x05	; 5
+    7bac:	51 f0       	breq	.+20     	; 0x7bc2 <_binary_bootloader_orig_bin_start+0x7bc2>
+    7bae:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7bb2:	82 ff       	sbrs	r24, 2
+    7bb4:	f7 cf       	rjmp	.-18     	; 0x7ba4 <_binary_bootloader_orig_bin_start+0x7ba4>
+    7bb6:	80 e0       	ldi	r24, 0x00	; 0
+    7bb8:	08 95       	ret
+    7bba:	81 e0       	ldi	r24, 0x01	; 1
+    7bbc:	08 95       	ret
+    7bbe:	82 e0       	ldi	r24, 0x02	; 2
+    7bc0:	08 95       	ret
+    7bc2:	83 e0       	ldi	r24, 0x03	; 3
+    7bc4:	08 95       	ret
+    7bc6:	61 15       	cp	r22, r1
+    7bc8:	71 05       	cpc	r23, r1
+    7bca:	29 f4       	brne	.+10     	; 0x7bd6 <_binary_bootloader_orig_bin_start+0x7bd6>
+    7bcc:	20 91 e8 00 	lds	r18, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7bd0:	2b 77       	andi	r18, 0x7B	; 123
+    7bd2:	20 93 e8 00 	sts	0x00E8, r18	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7bd6:	fc 01       	movw	r30, r24
+    7bd8:	61 15       	cp	r22, r1
+    7bda:	71 05       	cpc	r23, r1
+    7bdc:	31 f1       	breq	.+76     	; 0x7c2a <_binary_bootloader_orig_bin_start+0x7c2a>
+    7bde:	8e b3       	in	r24, 0x1e	; 30
+    7be0:	88 23       	and	r24, r24
+    7be2:	59 f1       	breq	.+86     	; 0x7c3a <_binary_bootloader_orig_bin_start+0x7c3a>
+    7be4:	85 30       	cpi	r24, 0x05	; 5
+    7be6:	59 f1       	breq	.+86     	; 0x7c3e <_binary_bootloader_orig_bin_start+0x7c3e>
+    7be8:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7bec:	83 fd       	sbrc	r24, 3
+    7bee:	23 c0       	rjmp	.+70     	; 0x7c36 <_binary_bootloader_orig_bin_start+0x7c36>
+    7bf0:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7bf4:	82 ff       	sbrs	r24, 2
+    7bf6:	f0 cf       	rjmp	.-32     	; 0x7bd8 <_binary_bootloader_orig_bin_start+0x7bd8>
+    7bf8:	20 91 f3 00 	lds	r18, 0x00F3	; 0x8000f3 <_binary_bootloader_orig_bin_end+0x7f80f3>
+    7bfc:	80 91 f2 00 	lds	r24, 0x00F2	; 0x8000f2 <_binary_bootloader_orig_bin_end+0x7f80f2>
+    7c00:	90 e0       	ldi	r25, 0x00	; 0
+    7c02:	92 2b       	or	r25, r18
+    7c04:	89 2b       	or	r24, r25
+    7c06:	31 f0       	breq	.+12     	; 0x7c14 <_binary_bootloader_orig_bin_start+0x7c14>
+    7c08:	80 91 f1 00 	lds	r24, 0x00F1	; 0x8000f1 <_binary_bootloader_orig_bin_end+0x7f80f1>
+    7c0c:	81 93       	st	Z+, r24
+    7c0e:	61 50       	subi	r22, 0x01	; 1
+    7c10:	71 09       	sbc	r23, r1
+    7c12:	91 f7       	brne	.-28     	; 0x7bf8 <_binary_bootloader_orig_bin_start+0x7bf8>
+    7c14:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7c18:	8b 77       	andi	r24, 0x7B	; 123
+    7c1a:	80 93 e8 00 	sts	0x00E8, r24	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7c1e:	dc cf       	rjmp	.-72     	; 0x7bd8 <_binary_bootloader_orig_bin_start+0x7bd8>
+    7c20:	8e b3       	in	r24, 0x1e	; 30
+    7c22:	88 23       	and	r24, r24
+    7c24:	51 f0       	breq	.+20     	; 0x7c3a <_binary_bootloader_orig_bin_start+0x7c3a>
+    7c26:	85 30       	cpi	r24, 0x05	; 5
+    7c28:	51 f0       	breq	.+20     	; 0x7c3e <_binary_bootloader_orig_bin_start+0x7c3e>
+    7c2a:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7c2e:	80 ff       	sbrs	r24, 0
+    7c30:	f7 cf       	rjmp	.-18     	; 0x7c20 <_binary_bootloader_orig_bin_start+0x7c20>
+    7c32:	80 e0       	ldi	r24, 0x00	; 0
+    7c34:	08 95       	ret
+    7c36:	81 e0       	ldi	r24, 0x01	; 1
+    7c38:	08 95       	ret
+    7c3a:	82 e0       	ldi	r24, 0x02	; 2
+    7c3c:	08 95       	ret
+    7c3e:	83 e0       	ldi	r24, 0x03	; 3
+    7c40:	08 95       	ret
+    7c42:	0f 93       	push	r16
+    7c44:	1f 93       	push	r17
+    7c46:	cf 93       	push	r28
+    7c48:	df 93       	push	r29
+    7c4a:	00 d0       	rcall	.+0      	; 0x7c4c <_binary_bootloader_orig_bin_start+0x7c4c>
+    7c4c:	cd b7       	in	r28, 0x3d	; 61
+    7c4e:	de b7       	in	r29, 0x3e	; 62
+    7c50:	e4 e5       	ldi	r30, 0x54	; 84
+    7c52:	f2 e0       	ldi	r31, 0x02	; 2
+    7c54:	88 e0       	ldi	r24, 0x08	; 8
+    7c56:	8e 0f       	add	r24, r30
+    7c58:	90 91 f1 00 	lds	r25, 0x00F1	; 0x8000f1 <_binary_bootloader_orig_bin_end+0x7f80f1>
+    7c5c:	91 93       	st	Z+, r25
+    7c5e:	8e 13       	cpse	r24, r30
+    7c60:	fb cf       	rjmp	.-10     	; 0x7c58 <_binary_bootloader_orig_bin_start+0x7c58>
+    7c62:	f1 da       	rcall	.-2590   	; 0x7246 <_binary_bootloader_orig_bin_start+0x7246>
+    7c64:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7c68:	83 ff       	sbrs	r24, 3
+    7c6a:	ce c0       	rjmp	.+412    	; 0x7e08 <_binary_bootloader_orig_bin_start+0x7e08>
+    7c6c:	80 91 54 02 	lds	r24, 0x0254	; 0x800254 <_binary_bootloader_orig_bin_end+0x7f8254>
+    7c70:	90 91 55 02 	lds	r25, 0x0255	; 0x800255 <_binary_bootloader_orig_bin_end+0x7f8255>
+    7c74:	49 2f       	mov	r20, r25
+    7c76:	50 e0       	ldi	r21, 0x00	; 0
+    7c78:	4a 30       	cpi	r20, 0x0A	; 10
+    7c7a:	51 05       	cpc	r21, r1
+    7c7c:	08 f0       	brcs	.+2      	; 0x7c80 <_binary_bootloader_orig_bin_start+0x7c80>
+    7c7e:	c4 c0       	rjmp	.+392    	; 0x7e08 <_binary_bootloader_orig_bin_start+0x7e08>
+    7c80:	fa 01       	movw	r30, r20
+    7c82:	ea 5a       	subi	r30, 0xAA	; 170
+    7c84:	f7 4c       	sbci	r31, 0xC7	; 199
+    7c86:	e7 c0       	rjmp	.+462    	; 0x7e56 <_binary_bootloader_orig_bin_start+0x7e56>
+    7c88:	82 38       	cpi	r24, 0x82	; 130
+    7c8a:	09 f0       	breq	.+2      	; 0x7c8e <_binary_bootloader_orig_bin_start+0x7c8e>
+    7c8c:	bd c0       	rjmp	.+378    	; 0x7e08 <_binary_bootloader_orig_bin_start+0x7e08>
+    7c8e:	80 91 58 02 	lds	r24, 0x0258	; 0x800258 <_binary_bootloader_orig_bin_end+0x7f8258>
+    7c92:	87 70       	andi	r24, 0x07	; 7
+    7c94:	80 93 e9 00 	sts	0x00E9, r24	; 0x8000e9 <_binary_bootloader_orig_bin_end+0x7f80e9>
+    7c98:	80 91 eb 00 	lds	r24, 0x00EB	; 0x8000eb <_binary_bootloader_orig_bin_end+0x7f80eb>
+    7c9c:	10 92 e9 00 	sts	0x00E9, r1	; 0x8000e9 <_binary_bootloader_orig_bin_end+0x7f80e9>
+    7ca0:	90 91 e8 00 	lds	r25, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7ca4:	97 7f       	andi	r25, 0xF7	; 247
+    7ca6:	90 93 e8 00 	sts	0x00E8, r25	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7caa:	85 fb       	bst	r24, 5
+    7cac:	88 27       	eor	r24, r24
+    7cae:	80 f9       	bld	r24, 0
+    7cb0:	80 93 f1 00 	sts	0x00F1, r24	; 0x8000f1 <_binary_bootloader_orig_bin_end+0x7f80f1>
+    7cb4:	10 92 f1 00 	sts	0x00F1, r1	; 0x8000f1 <_binary_bootloader_orig_bin_end+0x7f80f1>
+    7cb8:	85 c0       	rjmp	.+266    	; 0x7dc4 <_binary_bootloader_orig_bin_start+0x7dc4>
+    7cba:	28 2f       	mov	r18, r24
+    7cbc:	2d 7f       	andi	r18, 0xFD	; 253
+    7cbe:	09 f0       	breq	.+2      	; 0x7cc2 <_binary_bootloader_orig_bin_start+0x7cc2>
+    7cc0:	a3 c0       	rjmp	.+326    	; 0x7e08 <_binary_bootloader_orig_bin_start+0x7e08>
+    7cc2:	82 30       	cpi	r24, 0x02	; 2
+    7cc4:	09 f0       	breq	.+2      	; 0x7cc8 <_binary_bootloader_orig_bin_start+0x7cc8>
+    7cc6:	a0 c0       	rjmp	.+320    	; 0x7e08 <_binary_bootloader_orig_bin_start+0x7e08>
+    7cc8:	80 91 56 02 	lds	r24, 0x0256	; 0x800256 <_binary_bootloader_orig_bin_end+0x7f8256>
+    7ccc:	81 11       	cpse	r24, r1
+    7cce:	27 c0       	rjmp	.+78     	; 0x7d1e <_binary_bootloader_orig_bin_start+0x7d1e>
+    7cd0:	80 91 58 02 	lds	r24, 0x0258	; 0x800258 <_binary_bootloader_orig_bin_end+0x7f8258>
+    7cd4:	87 70       	andi	r24, 0x07	; 7
+    7cd6:	09 f4       	brne	.+2      	; 0x7cda <_binary_bootloader_orig_bin_start+0x7cda>
+    7cd8:	97 c0       	rjmp	.+302    	; 0x7e08 <_binary_bootloader_orig_bin_start+0x7e08>
+    7cda:	80 93 e9 00 	sts	0x00E9, r24	; 0x8000e9 <_binary_bootloader_orig_bin_end+0x7f80e9>
+    7cde:	20 91 eb 00 	lds	r18, 0x00EB	; 0x8000eb <_binary_bootloader_orig_bin_end+0x7f80eb>
+    7ce2:	20 ff       	sbrs	r18, 0
+    7ce4:	1c c0       	rjmp	.+56     	; 0x7d1e <_binary_bootloader_orig_bin_start+0x7d1e>
+    7ce6:	93 30       	cpi	r25, 0x03	; 3
+    7ce8:	21 f4       	brne	.+8      	; 0x7cf2 <_binary_bootloader_orig_bin_start+0x7cf2>
+    7cea:	80 91 eb 00 	lds	r24, 0x00EB	; 0x8000eb <_binary_bootloader_orig_bin_end+0x7f80eb>
+    7cee:	80 62       	ori	r24, 0x20	; 32
+    7cf0:	14 c0       	rjmp	.+40     	; 0x7d1a <_binary_bootloader_orig_bin_start+0x7d1a>
+    7cf2:	90 91 eb 00 	lds	r25, 0x00EB	; 0x8000eb <_binary_bootloader_orig_bin_end+0x7f80eb>
+    7cf6:	90 61       	ori	r25, 0x10	; 16
+    7cf8:	90 93 eb 00 	sts	0x00EB, r25	; 0x8000eb <_binary_bootloader_orig_bin_end+0x7f80eb>
+    7cfc:	21 e0       	ldi	r18, 0x01	; 1
+    7cfe:	30 e0       	ldi	r19, 0x00	; 0
+    7d00:	a9 01       	movw	r20, r18
+    7d02:	02 c0       	rjmp	.+4      	; 0x7d08 <_binary_bootloader_orig_bin_start+0x7d08>
+    7d04:	44 0f       	add	r20, r20
+    7d06:	55 1f       	adc	r21, r21
+    7d08:	8a 95       	dec	r24
+    7d0a:	e2 f7       	brpl	.-8      	; 0x7d04 <_binary_bootloader_orig_bin_start+0x7d04>
+    7d0c:	40 93 ea 00 	sts	0x00EA, r20	; 0x8000ea <_binary_bootloader_orig_bin_end+0x7f80ea>
+    7d10:	10 92 ea 00 	sts	0x00EA, r1	; 0x8000ea <_binary_bootloader_orig_bin_end+0x7f80ea>
+    7d14:	80 91 eb 00 	lds	r24, 0x00EB	; 0x8000eb <_binary_bootloader_orig_bin_end+0x7f80eb>
+    7d18:	88 60       	ori	r24, 0x08	; 8
+    7d1a:	80 93 eb 00 	sts	0x00EB, r24	; 0x8000eb <_binary_bootloader_orig_bin_end+0x7f80eb>
+    7d1e:	10 92 e9 00 	sts	0x00E9, r1	; 0x8000e9 <_binary_bootloader_orig_bin_end+0x7f80e9>
+    7d22:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7d26:	87 7f       	andi	r24, 0xF7	; 247
+    7d28:	50 c0       	rjmp	.+160    	; 0x7dca <_binary_bootloader_orig_bin_start+0x7dca>
+    7d2a:	81 11       	cpse	r24, r1
+    7d2c:	6d c0       	rjmp	.+218    	; 0x7e08 <_binary_bootloader_orig_bin_start+0x7e08>
+    7d2e:	10 91 56 02 	lds	r17, 0x0256	; 0x800256 <_binary_bootloader_orig_bin_end+0x7f8256>
+    7d32:	1f 77       	andi	r17, 0x7F	; 127
+    7d34:	0f b7       	in	r16, 0x3f	; 63
+    7d36:	f8 94       	cli
+    7d38:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7d3c:	87 7f       	andi	r24, 0xF7	; 247
+    7d3e:	80 93 e8 00 	sts	0x00E8, r24	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7d42:	c3 dd       	rcall	.-1146   	; 0x78ca <_binary_bootloader_orig_bin_start+0x78ca>
+    7d44:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7d48:	80 ff       	sbrs	r24, 0
+    7d4a:	fc cf       	rjmp	.-8      	; 0x7d44 <_binary_bootloader_orig_bin_start+0x7d44>
+    7d4c:	80 91 e3 00 	lds	r24, 0x00E3	; 0x8000e3 <_binary_bootloader_orig_bin_end+0x7f80e3>
+    7d50:	80 78       	andi	r24, 0x80	; 128
+    7d52:	81 2b       	or	r24, r17
+    7d54:	80 93 e3 00 	sts	0x00E3, r24	; 0x8000e3 <_binary_bootloader_orig_bin_end+0x7f80e3>
+    7d58:	80 68       	ori	r24, 0x80	; 128
+    7d5a:	80 93 e3 00 	sts	0x00E3, r24	; 0x8000e3 <_binary_bootloader_orig_bin_end+0x7f80e3>
+    7d5e:	11 11       	cpse	r17, r1
+    7d60:	02 c0       	rjmp	.+4      	; 0x7d66 <_binary_bootloader_orig_bin_start+0x7d66>
+    7d62:	82 e0       	ldi	r24, 0x02	; 2
+    7d64:	01 c0       	rjmp	.+2      	; 0x7d68 <_binary_bootloader_orig_bin_start+0x7d68>
+    7d66:	83 e0       	ldi	r24, 0x03	; 3
+    7d68:	8e bb       	out	0x1e, r24	; 30
+    7d6a:	0f bf       	out	0x3f, r16	; 63
+    7d6c:	4d c0       	rjmp	.+154    	; 0x7e08 <_binary_bootloader_orig_bin_start+0x7e08>
+    7d6e:	80 58       	subi	r24, 0x80	; 128
+    7d70:	82 30       	cpi	r24, 0x02	; 2
+    7d72:	08 f0       	brcs	.+2      	; 0x7d76 <_binary_bootloader_orig_bin_start+0x7d76>
+    7d74:	49 c0       	rjmp	.+146    	; 0x7e08 <_binary_bootloader_orig_bin_start+0x7e08>
+    7d76:	ae 01       	movw	r20, r28
+    7d78:	4f 5f       	subi	r20, 0xFF	; 255
+    7d7a:	5f 4f       	sbci	r21, 0xFF	; 255
+    7d7c:	60 91 58 02 	lds	r22, 0x0258	; 0x800258 <_binary_bootloader_orig_bin_end+0x7f8258>
+    7d80:	80 91 56 02 	lds	r24, 0x0256	; 0x800256 <_binary_bootloader_orig_bin_end+0x7f8256>
+    7d84:	90 91 57 02 	lds	r25, 0x0257	; 0x800257 <_binary_bootloader_orig_bin_end+0x7f8257>
+    7d88:	26 dd       	rcall	.-1460   	; 0x77d6 <_binary_bootloader_orig_bin_start+0x77d6>
+    7d8a:	bc 01       	movw	r22, r24
+    7d8c:	89 2b       	or	r24, r25
+    7d8e:	09 f4       	brne	.+2      	; 0x7d92 <_binary_bootloader_orig_bin_start+0x7d92>
+    7d90:	3b c0       	rjmp	.+118    	; 0x7e08 <_binary_bootloader_orig_bin_start+0x7e08>
+    7d92:	90 91 e8 00 	lds	r25, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7d96:	97 7f       	andi	r25, 0xF7	; 247
+    7d98:	90 93 e8 00 	sts	0x00E8, r25	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7d9c:	89 81       	ldd	r24, Y+1	; 0x01
+    7d9e:	9a 81       	ldd	r25, Y+2	; 0x02
+    7da0:	b5 de       	rcall	.-662    	; 0x7b0c <_binary_bootloader_orig_bin_start+0x7b0c>
+    7da2:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7da6:	8b 77       	andi	r24, 0x7B	; 123
+    7da8:	80 93 e8 00 	sts	0x00E8, r24	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7dac:	2d c0       	rjmp	.+90     	; 0x7e08 <_binary_bootloader_orig_bin_start+0x7e08>
+    7dae:	80 38       	cpi	r24, 0x80	; 128
+    7db0:	59 f5       	brne	.+86     	; 0x7e08 <_binary_bootloader_orig_bin_start+0x7e08>
+    7db2:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7db6:	87 7f       	andi	r24, 0xF7	; 247
+    7db8:	80 93 e8 00 	sts	0x00E8, r24	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7dbc:	80 91 52 02 	lds	r24, 0x0252	; 0x800252 <_binary_bootloader_orig_bin_end+0x7f8252>
+    7dc0:	80 93 f1 00 	sts	0x00F1, r24	; 0x8000f1 <_binary_bootloader_orig_bin_end+0x7f80f1>
+    7dc4:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7dc8:	8e 77       	andi	r24, 0x7E	; 126
+    7dca:	80 93 e8 00 	sts	0x00E8, r24	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7dce:	7d dd       	rcall	.-1286   	; 0x78ca <_binary_bootloader_orig_bin_start+0x78ca>
+    7dd0:	1b c0       	rjmp	.+54     	; 0x7e08 <_binary_bootloader_orig_bin_start+0x7e08>
+    7dd2:	81 11       	cpse	r24, r1
+    7dd4:	19 c0       	rjmp	.+50     	; 0x7e08 <_binary_bootloader_orig_bin_start+0x7e08>
+    7dd6:	90 91 56 02 	lds	r25, 0x0256	; 0x800256 <_binary_bootloader_orig_bin_end+0x7f8256>
+    7dda:	92 30       	cpi	r25, 0x02	; 2
+    7ddc:	a8 f4       	brcc	.+42     	; 0x7e08 <_binary_bootloader_orig_bin_start+0x7e08>
+    7dde:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7de2:	87 7f       	andi	r24, 0xF7	; 247
+    7de4:	80 93 e8 00 	sts	0x00E8, r24	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7de8:	90 93 52 02 	sts	0x0252, r25	; 0x800252 <_binary_bootloader_orig_bin_end+0x7f8252>
+    7dec:	6e dd       	rcall	.-1316   	; 0x78ca <_binary_bootloader_orig_bin_start+0x78ca>
+    7dee:	80 91 52 02 	lds	r24, 0x0252	; 0x800252 <_binary_bootloader_orig_bin_end+0x7f8252>
+    7df2:	81 11       	cpse	r24, r1
+    7df4:	06 c0       	rjmp	.+12     	; 0x7e02 <_binary_bootloader_orig_bin_start+0x7e02>
+    7df6:	80 91 e3 00 	lds	r24, 0x00E3	; 0x8000e3 <_binary_bootloader_orig_bin_end+0x7f80e3>
+    7dfa:	87 fd       	sbrc	r24, 7
+    7dfc:	02 c0       	rjmp	.+4      	; 0x7e02 <_binary_bootloader_orig_bin_start+0x7e02>
+    7dfe:	81 e0       	ldi	r24, 0x01	; 1
+    7e00:	01 c0       	rjmp	.+2      	; 0x7e04 <_binary_bootloader_orig_bin_start+0x7e04>
+    7e02:	84 e0       	ldi	r24, 0x04	; 4
+    7e04:	8e bb       	out	0x1e, r24	; 30
+    7e06:	13 da       	rcall	.-3034   	; 0x722e <_binary_bootloader_orig_bin_start+0x722e>
+    7e08:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7e0c:	83 ff       	sbrs	r24, 3
+    7e0e:	0a c0       	rjmp	.+20     	; 0x7e24 <_binary_bootloader_orig_bin_start+0x7e24>
+    7e10:	80 91 eb 00 	lds	r24, 0x00EB	; 0x8000eb <_binary_bootloader_orig_bin_end+0x7f80eb>
+    7e14:	80 62       	ori	r24, 0x20	; 32
+    7e16:	80 93 eb 00 	sts	0x00EB, r24	; 0x8000eb <_binary_bootloader_orig_bin_end+0x7f80eb>
+    7e1a:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7e1e:	87 7f       	andi	r24, 0xF7	; 247
+    7e20:	80 93 e8 00 	sts	0x00E8, r24	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7e24:	0f 90       	pop	r0
+    7e26:	0f 90       	pop	r0
+    7e28:	df 91       	pop	r29
+    7e2a:	cf 91       	pop	r28
+    7e2c:	1f 91       	pop	r17
+    7e2e:	0f 91       	pop	r16
+    7e30:	08 95       	ret
+    7e32:	08 95       	ret
+    7e34:	cf 93       	push	r28
+    7e36:	8e b3       	in	r24, 0x1e	; 30
+    7e38:	88 23       	and	r24, r24
+    7e3a:	59 f0       	breq	.+22     	; 0x7e52 <_binary_bootloader_orig_bin_start+0x7e52>
+    7e3c:	c0 91 e9 00 	lds	r28, 0x00E9	; 0x8000e9 <_binary_bootloader_orig_bin_end+0x7f80e9>
+    7e40:	c7 70       	andi	r28, 0x07	; 7
+    7e42:	10 92 e9 00 	sts	0x00E9, r1	; 0x8000e9 <_binary_bootloader_orig_bin_end+0x7f80e9>
+    7e46:	80 91 e8 00 	lds	r24, 0x00E8	; 0x8000e8 <_binary_bootloader_orig_bin_end+0x7f80e8>
+    7e4a:	83 fd       	sbrc	r24, 3
+    7e4c:	fa de       	rcall	.-524    	; 0x7c42 <_binary_bootloader_orig_bin_start+0x7c42>
+    7e4e:	c0 93 e9 00 	sts	0x00E9, r28	; 0x8000e9 <_binary_bootloader_orig_bin_end+0x7f80e9>
+    7e52:	cf 91       	pop	r28
+    7e54:	08 95       	ret
+    7e56:	ee 0f       	add	r30, r30
+    7e58:	ff 1f       	adc	r31, r31
+    7e5a:	05 90       	lpm	r0, Z+
+    7e5c:	f4 91       	lpm	r31, Z
+    7e5e:	e0 2d       	mov	r30, r0
+    7e60:	09 94       	ijmp
+    7e62:	f9 99       	sbic	0x1f, 1	; 31
+    7e64:	fe cf       	rjmp	.-4      	; 0x7e62 <_binary_bootloader_orig_bin_start+0x7e62>
+    7e66:	92 bd       	out	0x22, r25	; 34
+    7e68:	81 bd       	out	0x21, r24	; 33
+    7e6a:	f8 9a       	sbi	0x1f, 0	; 31
+    7e6c:	99 27       	eor	r25, r25
+    7e6e:	80 b5       	in	r24, 0x20	; 32
+    7e70:	08 95       	ret
+    7e72:	26 2f       	mov	r18, r22
+    7e74:	f9 99       	sbic	0x1f, 1	; 31
+    7e76:	fe cf       	rjmp	.-4      	; 0x7e74 <_binary_bootloader_orig_bin_start+0x7e74>
+    7e78:	1f ba       	out	0x1f, r1	; 31
+    7e7a:	92 bd       	out	0x22, r25	; 34
+    7e7c:	81 bd       	out	0x21, r24	; 33
+    7e7e:	20 bd       	out	0x20, r18	; 32
+    7e80:	0f b6       	in	r0, 0x3f	; 63
+    7e82:	f8 94       	cli
+    7e84:	fa 9a       	sbi	0x1f, 2	; 31
+    7e86:	f9 9a       	sbi	0x1f, 1	; 31
+    7e88:	0f be       	out	0x3f, r0	; 63
+    7e8a:	01 96       	adiw	r24, 0x01	; 1
+    7e8c:	08 95       	ret
+    7e8e:	f8 94       	cli
+    7e90:	ff cf       	rjmp	.-2      	; 0x7e90 <_binary_bootloader_orig_bin_start+0x7e90>
+    7e92:	08 95       	ret
+    7e94:	08 95       	ret
+    7e96:	08 95       	ret
+    7e98:	08 95       	ret
+    7e9a:	08 95       	ret
+    7e9c:	08 95       	ret
+    7e9e:	08 95       	ret
+    7ea0:	08 95       	ret
+    7ea2:	08 95       	ret
+    7ea4:	08 95       	ret
+    7ea6:	08 95       	ret
+    7ea8:	08 95       	ret
+    7eaa:	77 77       	andi	r23, 0x77	; 119
+    7eac:	00 00       	nop
+    7eae:	00 00       	nop
+    7eb0:	00 00       	nop
+    7eb2:	08 3a       	cpi	r16, 0xA8	; 168
+    7eb4:	03 50       	subi	r16, 0x03	; 3
+    7eb6:	00 72       	andi	r16, 0x20	; 32
+    7eb8:	00 75       	andi	r16, 0x50	; 80
+    7eba:	00 73       	andi	r16, 0x30	; 48
+    7ebc:	00 61       	ori	r16, 0x10	; 16
+    7ebe:	00 20       	and	r0, r0
+    7ec0:	00 52       	subi	r16, 0x20	; 32
+    7ec2:	00 65       	ori	r16, 0x50	; 80
+    7ec4:	00 73       	andi	r16, 0x30	; 48
+    7ec6:	00 65       	ori	r16, 0x50	; 80
+    7ec8:	00 61       	ori	r16, 0x10	; 16
+    7eca:	00 72       	andi	r16, 0x20	; 32
+    7ecc:	00 63       	ori	r16, 0x30	; 48
+    7ece:	00 68       	ori	r16, 0x80	; 128
+    7ed0:	00 20       	and	r0, r0
+    7ed2:	00 28       	or	r0, r0
+    7ed4:	00 70       	andi	r16, 0x00	; 0
+    7ed6:	00 72       	andi	r16, 0x20	; 32
+    7ed8:	00 75       	andi	r16, 0x50	; 80
+    7eda:	00 73       	andi	r16, 0x30	; 48
+    7edc:	00 61       	ori	r16, 0x10	; 16
+    7ede:	00 33       	cpi	r16, 0x30	; 48
+    7ee0:	00 64       	ori	r16, 0x40	; 64
+    7ee2:	00 2e       	mov	r0, r16
+    7ee4:	00 63       	ori	r16, 0x30	; 48
+    7ee6:	00 6f       	ori	r16, 0xF0	; 240
+    7ee8:	00 6d       	ori	r16, 0xD0	; 208
+    7eea:	00 29       	or	r16, r0
+    7eec:	00 00       	nop
+    7eee:	00 7c       	andi	r16, 0xC0	; 192
+    7ef0:	03 4f       	sbci	r16, 0xF3	; 243
+    7ef2:	00 72       	andi	r16, 0x20	; 32
+    7ef4:	00 69       	ori	r16, 0x90	; 144
+    7ef6:	00 67       	ori	r16, 0x70	; 112
+    7ef8:	00 69       	ori	r16, 0x90	; 144
+    7efa:	00 6e       	ori	r16, 0xE0	; 224
+    7efc:	00 61       	ori	r16, 0x10	; 16
+    7efe:	00 6c       	ori	r16, 0xC0	; 192
+    7f00:	00 20       	and	r0, r0
+    7f02:	00 50       	subi	r16, 0x00	; 0
+    7f04:	00 72       	andi	r16, 0x20	; 32
+    7f06:	00 75       	andi	r16, 0x50	; 80
+    7f08:	00 73       	andi	r16, 0x30	; 48
+    7f0a:	00 61       	ori	r16, 0x10	; 16
+    7f0c:	00 20       	and	r0, r0
+    7f0e:	00 69       	ori	r16, 0x90	; 144
+    7f10:	00 33       	cpi	r16, 0x30	; 48
+    7f12:	00 20       	and	r0, r0
+    7f14:	00 4d       	sbci	r16, 0xD0	; 208
+    7f16:	00 4b       	sbci	r16, 0xB0	; 176
+    7f18:	00 33       	cpi	r16, 0x30	; 48
+    7f1a:	00 20       	and	r0, r0
+    7f1c:	00 4d       	sbci	r16, 0xD0	; 208
+    7f1e:	00 75       	andi	r16, 0x50	; 80
+    7f20:	00 6c       	ori	r16, 0xC0	; 192
+    7f22:	00 74       	andi	r16, 0x40	; 64
+    7f24:	00 69       	ori	r16, 0x90	; 144
+    7f26:	00 20       	and	r0, r0
+    7f28:	00 4d       	sbci	r16, 0xD0	; 208
+    7f2a:	00 61       	ori	r16, 0x10	; 16
+    7f2c:	00 74       	andi	r16, 0x40	; 64
+    7f2e:	00 65       	ori	r16, 0x50	; 80
+    7f30:	00 72       	andi	r16, 0x20	; 32
+    7f32:	00 69       	ori	r16, 0x90	; 144
+    7f34:	00 61       	ori	r16, 0x10	; 16
+    7f36:	00 6c       	ori	r16, 0xC0	; 192
+    7f38:	00 20       	and	r0, r0
+    7f3a:	00 32       	cpi	r16, 0x20	; 32
+    7f3c:	00 2e       	mov	r0, r16
+    7f3e:	00 30       	cpi	r16, 0x00	; 0
+    7f40:	00 20       	and	r0, r0
+    7f42:	00 75       	andi	r16, 0x50	; 80
+    7f44:	00 70       	andi	r16, 0x00	; 0
+    7f46:	00 67       	ori	r16, 0x70	; 112
+    7f48:	00 72       	andi	r16, 0x20	; 32
+    7f4a:	00 61       	ori	r16, 0x10	; 16
+    7f4c:	00 64       	ori	r16, 0x40	; 64
+    7f4e:	00 65       	ori	r16, 0x50	; 80
+    7f50:	00 20       	and	r0, r0
+    7f52:	00 28       	or	r0, r0
+    7f54:	00 62       	ori	r16, 0x20	; 32
+    7f56:	00 6f       	ori	r16, 0xF0	; 240
+    7f58:	00 6f       	ori	r16, 0xF0	; 240
+    7f5a:	00 74       	andi	r16, 0x40	; 64
+    7f5c:	00 6c       	ori	r16, 0xC0	; 192
+    7f5e:	00 6f       	ori	r16, 0xF0	; 240
+    7f60:	00 61       	ori	r16, 0x10	; 16
+    7f62:	00 64       	ori	r16, 0x40	; 64
+    7f64:	00 65       	ori	r16, 0x50	; 80
+    7f66:	00 72       	andi	r16, 0x20	; 32
+    7f68:	00 29       	or	r16, r0
+    7f6a:	00 00       	nop
+    7f6c:	00 04       	cpc	r0, r0
+    7f6e:	03 09       	sbc	r16, r3
+    7f70:	04 09       	sbc	r16, r4
+    7f72:	02 3e       	cpi	r16, 0xE2	; 226
+    7f74:	00 02       	muls	r16, r16
+    7f76:	01 00       	.word	0x0001	; ????
+    7f78:	80 32       	cpi	r24, 0x20	; 32
+    7f7a:	09 04       	cpc	r0, r9
+    7f7c:	00 00       	nop
+    7f7e:	01 02       	muls	r16, r17
+    7f80:	02 01       	movw	r0, r4
+    7f82:	00 05       	cpc	r16, r0
+    7f84:	24 00       	.word	0x0024	; ????
+    7f86:	10 01       	movw	r2, r0
+    7f88:	04 24       	eor	r0, r4
+    7f8a:	02 04       	cpc	r0, r2
+    7f8c:	05 24       	eor	r0, r5
+    7f8e:	06 00       	.word	0x0006	; ????
+    7f90:	01 07       	cpc	r16, r17
+    7f92:	05 82       	std	Z+5, r0	; 0x05
+    7f94:	03 08       	sbc	r0, r3
+    7f96:	00 ff       	sbrs	r16, 0
+    7f98:	09 04       	cpc	r0, r9
+    7f9a:	01 00       	.word	0x0001	; ????
+    7f9c:	02 0a       	sbc	r0, r18
+    7f9e:	00 00       	nop
+    7fa0:	00 07       	cpc	r16, r16
+    7fa2:	05 04       	cpc	r0, r5
+    7fa4:	02 10       	cpse	r0, r2
+    7fa6:	00 01       	movw	r0, r0
+    7fa8:	07 05       	cpc	r16, r7
+    7faa:	83 02       	muls	r24, r19
+    7fac:	10 00       	.word	0x0010	; ????
+    7fae:	01 12       	cpse	r0, r17
+    7fb0:	01 10       	cpse	r0, r1
+    7fb2:	01 02       	muls	r16, r17
+    7fb4:	00 00       	nop
+    7fb6:	08 99       	sbic	0x01, 0	; 1
+    7fb8:	2c 03       	fmul	r18, r20
+    7fba:	00 01       	movw	r0, r0
+    7fbc:	00 02       	muls	r16, r16
+    7fbe:	01 03       	mulsu	r16, r17
+    7fc0:	01 43       	sbci	r16, 0x31	; 49
+    7fc2:	41 54       	subi	r20, 0x41	; 65
+    7fc4:	45 52       	subi	r20, 0x25	; 37
+    7fc6:	49 4e       	sbci	r20, 0xE9	; 233
+    7fc8:	41 00       	.word	0x0041	; ????
+    7fca:	ff ff       	.word	0xffff	; ????
+    7fcc:	ff ff       	.word	0xffff	; ????
+    7fce:	ff ff       	.word	0xffff	; ????
+    7fd0:	ff ff       	.word	0xffff	; ????
+    7fd2:	ff ff       	.word	0xffff	; ????
+    7fd4:	ff ff       	.word	0xffff	; ????
+    7fd6:	ff ff       	.word	0xffff	; ????
+    7fd8:	ff ff       	.word	0xffff	; ????
+    7fda:	ff ff       	.word	0xffff	; ????
+    7fdc:	ff ff       	.word	0xffff	; ????
+    7fde:	ff ff       	.word	0xffff	; ????
+    7fe0:	58 cf       	rjmp	.-336    	; 0x7e92 <_binary_bootloader_orig_bin_start+0x7e92>
+    7fe2:	58 cf       	rjmp	.-336    	; 0x7e94 <_binary_bootloader_orig_bin_start+0x7e94>
+    7fe4:	58 cf       	rjmp	.-336    	; 0x7e96 <_binary_bootloader_orig_bin_start+0x7e96>
+    7fe6:	58 cf       	rjmp	.-336    	; 0x7e98 <_binary_bootloader_orig_bin_start+0x7e98>
+    7fe8:	58 cf       	rjmp	.-336    	; 0x7e9a <_binary_bootloader_orig_bin_start+0x7e9a>
+    7fea:	58 cf       	rjmp	.-336    	; 0x7e9c <_binary_bootloader_orig_bin_start+0x7e9c>
+    7fec:	58 cf       	rjmp	.-336    	; 0x7e9e <_binary_bootloader_orig_bin_start+0x7e9e>
+    7fee:	58 cf       	rjmp	.-336    	; 0x7ea0 <_binary_bootloader_orig_bin_start+0x7ea0>
+    7ff0:	58 cf       	rjmp	.-336    	; 0x7ea2 <_binary_bootloader_orig_bin_start+0x7ea2>
+    7ff2:	58 cf       	rjmp	.-336    	; 0x7ea4 <_binary_bootloader_orig_bin_start+0x7ea4>
+    7ff4:	58 cf       	rjmp	.-336    	; 0x7ea6 <_binary_bootloader_orig_bin_start+0x7ea6>
+    7ff6:	58 cf       	rjmp	.-336    	; 0x7ea8 <_binary_bootloader_orig_bin_start+0x7ea8>
+    7ff8:	00 70       	andi	r16, 0x00	; 0
+    7ffa:	00 00       	nop
+    7ffc:	00 df       	rcall	.-512    	; 0x7dfe <_binary_bootloader_orig_bin_start+0x7dfe>
+    7ffe:	fb dc       	rcall	.-1546   	; 0x79f6 <_binary_bootloader_orig_bin_start+0x79f6>

@@ -1,0 +1,16 @@
+.dep/
+out/
+Caterina.eep
+Caterina.elf
+Caterina.hex
+Caterina.lss
+Caterina.lst
+Caterina.map
+Caterina.o
+Caterina.sym
+Descriptors.lst
+Descriptors.o
+BootloaderAPITable.lst
+BootloaderAPITable.o
+BootloaderAPI.lst
+BootloaderAPI.o
